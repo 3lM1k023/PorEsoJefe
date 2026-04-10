@@ -1,0 +1,75 @@
+[
+{
+  "articulo": 77,
+  "titulo": "Documentación obligatoria para conducir vehículos automotores",
+  "tipo": "requisitos",
+  "intents":["documentacion_obligatoria_conducir"],
+  "descripcion": "Para conducir vehículos automotores en las vías públicas del Municipio de Jojutla, es obligatorio portar la Tarjeta de Circulación del vehículo y la Licencia o Permiso vigente, expedidos por la autoridad competente.",
+  "documentos_obligatorios": [
+    "Tarjeta de Circulación original",
+    "Licencia o Permiso vigente y original"
+  ],
+  "clasificacion_de_licencias": [
+    {
+      "tipo": "Motocicleta",
+      "vehiculos_autorizados": [
+        "motocicleta",
+        "motonetas",
+        "cuatrimotos",
+        "bicimotos",
+        "triciclos automotores"
+      ]
+    },
+    {
+      "tipo": "Automovilista",
+      "vehiculos_autorizados": [
+        "automóviles",
+        "camionetas clasificadas como ligeras"
+      ]
+    },
+    {
+      "tipo": "Chofer",
+      "vehiculos_autorizados": [
+        "vehículos ligeros",
+        "vehículos clasificados como pesados",
+        "vehículos de servicio público"
+      ]
+    }
+  ],
+  "condiciones_de_validez": [
+    "Los documentos deben estar en buen estado",
+    "Deben presentarse en su forma original",
+    "Las licencias y permisos son personales e intransferibles"
+  ],
+  "explicacion_clara": "Para poder conducir legalmente en el municipio, toda persona debe llevar consigo su licencia de conducir vigente y la tarjeta de circulación original del vehículo. Existen diferentes tipos de licencias según el tipo de vehículo que se maneje: una para motocicletas, otra para autos ligeros, y otra más completa para choferes de transporte pesado o público. Estos documentos deben estar en buen estado y no se pueden prestar a otras personas.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 78,
+  "titulo": "Conducción de vehículos por extranjeros",
+  "tipo": "requisitos",
+  "intents":["conduccion_extranjeros_licencia"],
+  "descripcion": "Los ciudadanos extranjeros pueden conducir vehículos motorizados en las vías públicas del Municipio de Jojutla si cuentan con una licencia vigente expedida por una autoridad competente, incluso si esta fue emitida en su país de origen.",
+  "requisitos_para_extranjeros": [
+    "Tener una licencia de conducir vigente",
+    "La licencia puede ser expedida por la autoridad competente de su país de origen o por autoridades mexicanas",
+    "Llevar consigo dicha licencia al momento de conducir"
+  ],
+  "explicacion_clara": "Las personas extranjeras pueden manejar en Jojutla siempre que tengan una licencia de conducir válida de su país o de México y la lleven consigo. No es necesario que sea una licencia mexicana, pero sí debe estar vigente y emitida por una autoridad reconocida.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 79,
+  "titulo": "Conducción por menores de edad",
+  "tipo": "requisitos",
+  "intents":["conduccion_menores_permiso"],
+  "descripcion": "Se permite la conducción de vehículos motorizados por menores de edad únicamente bajo los términos establecidos por la legislación estatal y con un permiso válido expedido por la Secretaría de Movilidad y Transporte del Estado.",
+  "requisitos_para_menores": [
+    "Cumplir con lo establecido en la legislación estatal",
+    "Contar con un permiso para conducir expedido por la Secretaría de Movilidad y Transporte del Estado",
+    "Portar dicho permiso al momento de conducir"
+  ],
+  "explicacion_clara": "Los menores de edad solo pueden manejar vehículos motorizados si tienen un permiso oficial otorgado por la Secretaría de Movilidad y Transporte del Estado, y deben cumplir con los requisitos estatales. No pueden conducir sin ese permiso.",
+  "aplicable_en_infracciones": true
+}
+]

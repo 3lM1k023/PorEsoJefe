@@ -1,0 +1,16 @@
+[
+{
+  "articulo": 121,
+  "titulo": "Casos no previstos en el Reglamento",
+  "tipo": "interpretativo",
+  "descripcion": "Establece que los asuntos no contemplados expresamente en el Reglamento de Tránsito serán resueltos conforme a las leyes aplicables, la autoridad de tránsito o el Ayuntamiento de Jojutla.",
+  "criterio_supletorio": [
+    "Leyes aplicables",
+    "Autoridades de tránsito",
+    "Ayuntamiento de Jojutla"
+  ],
+  "aplicable_en_infracciones": false,
+  "explicacion_clara": "Si alguna situación no está regulada en este reglamento, se resolverá según lo que indiquen otras leyes, las autoridades de tránsito o el Ayuntamiento. Este artículo no impone infracciones directamente."
+}
+
+]

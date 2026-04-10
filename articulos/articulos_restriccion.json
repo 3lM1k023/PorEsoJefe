@@ -1,0 +1,35 @@
+[
+ {
+  "articulo": 36,
+  "titulo": "Remolque o empuje de vehículos motorizados",
+  "tipo": "restricción",
+  "intents":["remolque_empuje_vehiculos"],
+  "descripcion": "Prohíbe remolcar o empujar vehículos motorizados sin grúa, salvo excepciones específicas.",
+  "estructura": "fracciones",
+  "contenido": {
+    "I": "Se permite si se trata de remolques u otros vehículos expresamente diseñados para este fin.",
+    "II": "Se permite si el vehículo obstruye la circulación.",
+    "III": "Se permite si el vehículo representa un peligro para sí o para terceros, únicamente hasta ponerlo en un lugar seguro."
+  },
+  "excepciones": [
+    "Los vehículos de transporte público solo pueden ser remolcados por una grúa."
+  ],
+  "sancion": "Los conductores que incumplan este artículo serán sancionados conforme a los montos de la Ley de Ingresos.",
+  "explicacion_clara": "No puedes empujar o remolcar otro vehículo con tu coche, salvo que sea un remolque diseñado para eso, el coche estorbe en la vía o represente un peligro. Si es un transporte público, solo una grúa puede moverlo.",
+  "aplicable_en_infracciones": true,
+  "es_excepcion_legal": false
+ },
+{
+  "articulo": 61,
+  "titulo": "Reparaciones de emergencia en vía pública",
+  "tipo": "restricción",
+  "intents":["reparacion_emergencia_via_publica"],
+  "descripcion": "Establece que las reparaciones a vehículos en la vía pública solo están permitidas en casos de emergencia.",
+  "condiciones_para_reparacion": [
+    "La reparación debe ser causada por una emergencia",
+    "Se deben colocar de inmediato los dispositivos de emergencia"
+  ],
+  "explicacion_clara": "Solo puedes reparar tu vehículo en la calle si es una emergencia, y debes colocar de inmediato los triángulos u otros señalamientos para advertir a los demás conductores.",
+  "aplicable_en_infracciones": true
+}
+]

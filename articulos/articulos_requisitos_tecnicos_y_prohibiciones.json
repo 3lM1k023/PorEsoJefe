@@ -1,0 +1,27 @@
+[
+{
+  "articulo": 76,
+  "titulo": "Condiciones de las llantas de vehículos automotores",
+  "tipo": "requisitos técnicos y prohibiciones",
+  "intents":["llantas_condiciones_obligatorias"],
+  "descripcion": "Establece las condiciones de seguridad que deben cumplir las llantas de los vehículos automotores, incluyendo la obligación de portar llanta de refacción y la prohibición de circular con llantas en mal estado o materiales inadecuados.",
+  "requisitos": [
+    {
+      "descripcion": "Las llantas deben estar en condiciones suficientes de seguridad"
+    },
+    {
+      "descripcion": "El vehículo debe contar con una llanta de refacción en buenas condiciones"
+    }
+  ],
+  "prohibiciones": [
+    {
+      "descripcion": "Transitar con llantas lisas o con roturas"
+    },
+    {
+      "descripcion": "Transitar con ruedas metálicas, de madera u otro material que dañe el pavimento"
+    }
+  ],
+  "explicacion_clara": "Las llantas de los vehículos deben estar en buen estado para evitar accidentes. Es obligatorio llevar una llanta de refacción por si se necesita cambiar alguna. No se permite circular con llantas desgastadas, rotas o hechas de materiales que puedan dañar la calle, como metal o madera.",
+  "aplicable_en_infracciones": true
+}
+]

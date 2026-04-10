@@ -1,0 +1,32 @@
+[
+{
+  "articulo": 40,
+  "titulo": "Obligaciones de conductores de vehículos no motorizados",
+  "tipo": "norma",
+  "intents":["obligaciones_no_motorizados"],
+  "descripcion": "Los conductores de vehículos no motorizados deben respetar las normas generales de circulación, con excepciones por su naturaleza.",
+  "estructura": "condicional",
+  "reglas_generales": "Respetar el capítulo I excepto lo que no aplique a vehículos no motorizados.",
+  "obligaciones_adicionales": {
+    "I": {
+      "descripcion": "Circular preferentemente por vías ciclistas exclusivas cuando existan",
+      "excepciones": [
+        "Vía ciclista impedida por obras o eventos",
+        "El vehículo no motorizado mide más de 0.75 m de ancho",
+        "Necesidad de adelantar a otro usuario",
+        "Giro hacia el lado contrario de la vía ciclista o entrada a un predio"
+      ],
+      "nota": "En estos casos pueden ocupar un carril completo"
+    },
+    "II": {
+      "descripcion": "Indicar giros o cambio de carril mediante señales con brazo y mano"
+    }
+  },
+  "sanciones": {
+    "tipo": "Amonestación verbal",
+    "condicion": "Si no cumplen con las normas generales o este capítulo"
+  },
+  "explicacion_clara": "Si usas una bici u otro vehículo sin motor, sigue las reglas de tránsito aplicables. Usa ciclovía cuando puedas, pero si hay obstáculos o necesitas girar, puedes ir en el carril normal. Señala tus vueltas con el brazo. Si no lo haces, solo te llaman la atención verbalmente.",
+  "aplicable_en_infracciones": true
+}
+]

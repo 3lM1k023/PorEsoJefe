@@ -1,0 +1,29 @@
+[
+{
+  "articulo": 73,
+  "titulo": "Equipo obligatorio para vehículos automotores",
+  "tipo": "requisitos técnicos",
+  "intents":["equipo_obligatorio_vehiculos"],
+  "descripcion": "Establece el equipo mínimo obligatorio que deben portar los vehículos automotores de cuatro o más ruedas, así como recomendaciones para vehículos no motorizados.",
+  "vehiculos_aplicables": [
+    "vehículos automotores de cuatro o más ruedas"
+  ],
+  "equipo_obligatorio": [
+    "Cinturones de seguridad, al menos en los asientos delanteros",
+    "Bocina o claxon",
+    "Manómetro de aire comprimido",
+    "Velocímetro con iluminación en el tablero",
+    "Silenciador en el tubo de escape",
+    "Dos espejos retrovisores (uno interior y uno exterior del lado del conductor)",
+    "Sistema de limpiadores de parabrisas",
+    "Salpicaderas o guardafangos",
+    "Llanta de refacción y herramienta necesaria",
+    "Dos defensas (una delantera y una trasera)",
+    "Parabrisas y medallón sin rupturas",
+    "Equipo de emergencia (banderolas y linternas rojas)"
+  ],
+  "recomendaciones_vehiculos_no_motorizados": "Circular con equipo reflejante delantero y trasero",
+  "explicacion_clara": "Todo automóvil debe contar con elementos básicos de seguridad y funcionamiento como cinturones, espejos, velocímetro, llanta de refacción y equipo de emergencia. También se recomienda que bicicletas y otros vehículos no motorizados tengan luces o reflejantes visibles.",
+  "aplicable_en_infracciones": true
+}
+]

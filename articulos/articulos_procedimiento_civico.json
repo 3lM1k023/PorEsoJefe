@@ -1,0 +1,27 @@
+[
+{
+  "articulo": 90,
+  "titulo": "Remisión al Juez Cívico por embestidas o maltratos sin lesiones",
+  "tipo": "procedimiento cívico",
+  "intents":["remision_juez_embestida_maltrato"],
+  "descripcion": "Establece las acciones a tomar cuando ocurre una embestida sin lesiones entre conductores o peatones, o cuando hay maltrato físico o verbal entre usuarios de la vía pública.",
+  "sujeto": [
+    "Conductores de vehículos motorizados",
+    "Conductores de vehículos no motorizados",
+    "Peatones",
+    "Usuarios de la vía pública"
+  ],
+  "acciones_remision_juez": [
+    "El conductor de un vehículo motorizado que embista a un peatón o a un conductor no motorizado sin causar lesiones será remitido al Juez Cívico a petición del agraviado.",
+    "El conductor de un vehículo no motorizado que embista a un peatón sin causar lesiones será remitido al Juez Cívico a petición del agraviado.",
+    "Cualquier usuario de la vía que maltrate física o verbalmente a otra persona será remitido al Juez Cívico si el agraviado lo solicita."
+  ],
+  "autoridad_responsable": "Juez Cívico",
+  "obligaciones_del_juez": [
+    "Informar a las dependencias municipales correspondientes sobre las sanciones cívicas impuestas.",
+    "Asegurar el debido procesamiento y cumplimiento de dichas sanciones."
+  ],
+  "explicacion_clara": "Cuando una persona embiste a otra con su vehículo sin causarle lesiones, o agrede verbal o físicamente a otra persona en la vía pública, el afectado puede pedir que se le lleve ante el Juez Cívico. El juez decidirá si aplica una sanción, y deberá notificar a las autoridades correspondientes para que se cumpla.",
+  "aplicable_en_infracciones": true
+}
+]

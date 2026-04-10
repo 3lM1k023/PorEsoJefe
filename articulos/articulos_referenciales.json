@@ -1,0 +1,15 @@
+[
+{
+  "articulo": 9,
+  "titulo": "Circulación de vehículos con permisos provisionales",
+  "tipo": "referencial",
+  "intents":["permisos_provisionales_circulacion"],
+  "descripcion": "Este artículo establece que los vehículos con permisos provisionales emitidos por la Secretaría de Movilidad y Transporte del estado de Morelos solo podrán circular en el municipio si se encuentran bajo los supuestos establecidos en el Reglamento Estatal.",
+  "estructura": "parrafo",
+  "contenido": [
+    "Los vehículos que circulen en el Municipio con permisos provisionales expedidos por la Secretaría de Movilidad y Transporte del estado de Morelos, deberán encontrarse en las hipótesis señaladas en el artículo 166, fracción III del Reglamento Estatal."
+  ],
+  "explicacion_clara": "Este artículo dice que los autos con permisos provisionales solo pueden circular en Jojutla si cumplen con lo que establece el artículo 166, fracción III del Reglamento Estatal de Tránsito. Es decir, se deben respetar las condiciones estatales específicas para esos permisos.",
+  "aplicable_en_infracciones": true
+}
+]

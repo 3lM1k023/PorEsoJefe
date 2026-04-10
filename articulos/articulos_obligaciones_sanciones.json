@@ -1,0 +1,54 @@
+[
+{
+  "articulo": 56,
+  "titulo": "Regulación del transporte de ganado",
+  "tipo": "obligaciones y sanciones",
+  "intents":["transporte_ganado"],
+  "descripcion": "Establece que los vehículos motorizados que transportan ganado deben contar con permiso correspondiente y cumplir con la normatividad vigente.",
+  "sujeto": "vehículos motorizados que transporten ganado bovino, porcino, caprino y aviar",
+  "obligaciones": [
+    {
+      "descripcion": "Contar con el permiso correspondiente para transportar ganado"
+    },
+    {
+      "descripcion": "Cumplir con la normatividad aplicable, incluyendo la Ley General del Estado de Morelos y la NOM-024-ZOO-1995 y subsecuentes"
+    }
+  ],
+  "sanciones": {
+    "tipo": "legales",
+    "descripcion": "Las sanciones aplicables serán las establecidas por la Ley correspondiente"
+  },
+  "explicacion_clara": "Los vehículos que transportan animales como vacas, cerdos, cabras o aves deben tener un permiso especial y seguir reglas específicas para evitar sanciones. Estas reglas vienen de leyes estatales y normas oficiales relacionadas con el trato y transporte adecuado de los animales.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 57,
+  "titulo": "Regulación del transporte de materiales inflamables",
+  "tipo": "obligaciones y sanciones",
+  "intents":["transporte_inflamables"],
+  "descripcion": "Establece las condiciones y normativas que deben cumplir los vehículos motorizados que transporten materiales inflamables.",
+  "sujeto": "vehículos motorizados que transporten inflamables",
+  "obligaciones": [
+    {
+      "descripcion": "Contar con el permiso correspondiente para transportar materiales inflamables"
+    },
+    {
+      "descripcion": "Contar con extintores abastecidos y en óptimas condiciones"
+    },
+    {
+      "descripcion": "Cumplir con las normas oficiales mexicanas aplicables:",
+      "normas": [
+        "NOM-009-SCT2/2009: especificaciones especiales para transporte de explosivos",
+        "NOM-010-SCT2/2009: compatibilidad y segregación de materiales peligrosos",
+        "NOM-011-SCT2/2012: condiciones para transporte de materiales peligrosos en cantidades limitadas"
+      ]
+    }
+  ],
+  "sanciones": {
+    "tipo": "legales",
+    "descripcion": "Las sanciones aplicables serán las establecidas por la Ley correspondiente"
+  },
+  "explicacion_clara": "Los vehículos que transporten sustancias inflamables como gasolina o productos químicos deben tener permiso oficial, llevar extintores funcionales y cumplir reglas estrictas de seguridad para evitar accidentes. Estas reglas están en normas oficiales mexicanas que protegen a las personas y al ambiente.",
+  "aplicable_en_infracciones": true
+}
+]

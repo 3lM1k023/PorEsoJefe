@@ -1,0 +1,425 @@
+[
+{
+  "articulo": 37,
+  "titulo": "Conducción en estado de ebriedad",
+  "tipo": "prohibicion",
+  "intents":["conduccion_estado_ebriedad"],
+  "descripcion": "Define el estado de ebriedad y los límites de alcohol en sangre o aire espirado para diferentes tipos de conductores.",
+  "estructura": "condicional",
+  "criterios": {
+    "general": {
+      "descripcion": "Una persona está en estado de ebriedad si un certificado médico expedido por la Dirección de Tránsito así lo determina.",
+      "limite_sangre": "más de 0.8 g/L",
+      "limite_aire": "más de 0.4 mg/L"
+    },
+    "vehiculos_carga_ligera": {
+      "limite_sangre": "más de 0.5 g/L",
+      "limite_aire": "más de 0.25 mg/L"
+    },
+    "vehiculos_especiales": {
+      "tipos": [
+        "transporte colectivo de pasajeros",
+        "transporte privado de sustancias tóxicas o peligrosas",
+        "transporte privado especializado",
+        "transporte escolar"
+      ],
+      "limite": "tolerancia cero (0.0 g/L de sangre y 0.0 mg/L de aire espirado)"
+    }
+  },
+  "determinacion": {
+    "metodo": "Certificado médico expedido por médico designado por la Dirección de Tránsito y Vialidad Municipal"
+  },
+  "explicacion_clara": "Está prohibido conducir en estado de ebriedad. Si eres conductor regular, no puedes tener más de 0.8 g/L de alcohol en sangre. Si manejas carga ligera, el límite baja a 0.5 g/L. Si manejas transporte público, sustancias peligrosas o escolares, no debes tener nada de alcohol.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 47,
+  "titulo": "Prohibiciones a conductores de motocicletas",
+  "tipo": "prohibiciones",
+  "intents":["prohibiciones_motociclistas"],
+  "descripcion": "Se establecen las prohibiciones específicas para los conductores de motocicletas dentro del municipio.",
+  "vehiculos_aplicables": [
+    "motocicletas"
+  ],
+  "prohibiciones": [
+    {
+      "fraccion": "I",
+      "descripcion": "Circular sobre las aceras y áreas reservadas al uso exclusivo de peatones, salvo para ingresar a su domicilio o estacionamiento, debiendo desmontar."
+    },
+    {
+      "fraccion": "II",
+      "descripcion": "Circular por vías ciclistas exclusivas."
+    },
+    {
+      "fraccion": "III",
+      "descripcion": "Circular entre carriles, salvo cuando el tránsito esté detenido y se busque colocarse en el área de espera para motocicletas o en un lugar visible, sin invadir pasos peatonales."
+    },
+    {
+      "fraccion": "IV",
+      "descripcion": "Circular en vías con señalización que restrinja expresamente su circulación."
+    },
+    {
+      "fraccion": "V",
+      "descripcion": "Circular de forma paralela en un mismo carril."
+    },
+    {
+      "fraccion": "VI",
+      "descripcion": "Llevar tres ocupantes."
+    },
+    {
+      "fraccion": "VII",
+      "descripcion": "Transportar bultos, tanques de gas, animales u objetos voluminosos que dificulten la conducción."
+    },
+    {
+      "fraccion": "VIII",
+      "descripcion": "Realizar maniobras riesgosas o temerarias, cortes de circulación o cambios abruptos de carril que pongan en riesgo su integridad o la de terceros."
+    }
+  ],
+  "sanciones": {
+    "tipo": "económica",
+    "referencia": "Se sanciona conforme a la Ley de Ingresos vigente y lo estipulado por la Dirección de Tránsito"
+  },
+  "explicacion_clara": "A los motociclistas se les prohíbe circular por banquetas, ciclovías, entre autos en movimiento o en zonas donde esté restringido. Tampoco pueden llevar a más de dos personas, transportar objetos grandes o peligrosos, ni manejar de forma arriesgada. Si lo hacen, recibirán una multa económica.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 48,
+  "titulo": "Prohibición del uso de mototaxis como transporte público",
+  "tipo": "prohibiciones",
+  "intents":["prohibicion_mototaxis"],
+  "descripcion": "En el municipio de Jojutla, Morelos, se prohíbe la prestación del servicio de mototaxis o similares como medio de transporte público.",
+  "vehiculos_aplicables": [
+    "mototaxis",
+    "vehículos similares"
+  ],
+  "prohibiciones": [
+    {
+      "descripcion": "Prestar el servicio de transporte público utilizando mototaxis o vehículos similares."
+    }
+  ],
+  "modificaciones_y_excepciones": "Cualquier modificación o excepción deberá ser autorizada por el Ayuntamiento y/o la autoridad estatal o federal competente.",
+  "sanciones": {
+    "tipo": "remisión",
+    "descripcion": "El vehículo será remitido al depósito vehicular además de las sanciones previstas en la Ley."
+  },
+  "explicacion_clara": "Está prohibido usar mototaxis o vehículos parecidos como transporte público en Jojutla. Si alguien lo hace, las autoridades pueden llevarse el vehículo al corralón y aplicar otras sanciones legales.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 49,
+  "titulo": "Restricción al reparto de tortillas en motocicleta",
+  "intents":["prohibicion_reparto_tortillas_moto"],
+  "tipo": "prohibiciones",
+  "descripcion": "Salvo las excepciones previstas en el artículo 38 del Reglamento de Molinos y Tortillerías de Jojutla, Morelos, se prohíbe el uso de motocicletas para el reparto casa por casa de tortillas dentro del Municipio.",
+  "vehiculos_restringidos": [
+    "motocicletas"
+  ],
+  "actividad_restringida": "reparto casa por casa de tortillas",
+  "excepciones": {
+    "referencia": "Artículo 38 del Reglamento de Molinos y Tortillerías de Jojutla, Morelos",
+    "descripcion": "Se permiten excepciones únicamente conforme a lo estipulado en dicho artículo."
+  },
+  "modificaciones_y_excepciones": "Toda modificación o excepción estará sujeta a lo dispuesto por el Ayuntamiento.",
+  "sanciones": {
+    "tipo": "remisión",
+    "descripcion": "El vehículo será remitido al depósito vehicular además de lo previsto en la Ley."
+  },
+  "explicacion_clara": "No se permite repartir tortillas en motocicleta en Jojutla, salvo en los casos que el reglamento de molinos lo indique. Si alguien lo hace sin autorización, la moto puede ser llevada al corralón y se aplicarán sanciones.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 52,
+  "titulo": "Prohibiciones a conductores de transporte público colectivo",
+  "tipo": "prohibiciones",
+  "intents":["prohibiciones_transporte_publico"],
+  "descripcion": "Se establecen las conductas prohibidas para los conductores de transporte público colectivo de pasajeros dentro del municipio.",
+  "sujeto": "conductores de vehículos de transporte público colectivo de pasajeros",
+  "prohibiciones": [
+    {
+      "fraccion": "I",
+      "descripcion": "Realizar maniobras de ascenso o descenso de pasajeros en el segundo o tercer carril de circulación, contados de derecha a izquierda"
+    },
+    {
+      "fraccion": "II",
+      "descripcion": "Usar celular, dispositivos móviles o audífonos mientras el vehículo está en movimiento"
+    },
+    {
+      "fraccion": "III",
+      "descripcion": "Utilizar equipos de audio con volumen que exceda los niveles permitidos de decibeles"
+    },
+    {
+      "fraccion": "IV",
+      "descripcion": "Rebasar en carril de contraflujo, salvo que el vehículo rebasado esté descompuesto; en tal caso se debe hacer con precaución, luces encendidas y direccionales activas"
+    },
+    {
+      "fraccion": "V",
+      "descripcion": "Fumar dentro de la unidad de transporte"
+    },
+    {
+      "fraccion": "VI",
+      "descripcion": "Realizar ascenso o descenso de pasajeros en lugares no autorizados con señalamiento explícito"
+    },
+    {
+      "fraccion": "VII",
+      "descripcion": "Negar el servicio a personas con discapacidad o de la tercera edad"
+    },
+    {
+      "fraccion": "VIII",
+      "descripcion": "Cargar combustible con pasajeros a bordo"
+    },
+    {
+      "fraccion": "IX",
+      "descripcion": "Rebasar la capacidad de pasajeros permitida en la tarjeta de circulación"
+    },
+    {
+      "fraccion": "X",
+      "descripcion": "Tirar basura a la vía pública o permitir que los pasajeros lo hagan sin reportarlo"
+    },
+    {
+      "fraccion": "XI",
+      "descripcion": "Hacer base o sitio en lugares no autorizados durante el horario de servicio"
+    },
+    {
+      "fraccion": "XII",
+      "descripcion": "Cobrar tarifas no autorizadas por la autoridad competente"
+    }
+  ],
+  "sanciones": {
+    "tipo": "económica y administrativa",
+    "descripcion": "Multa conforme a la Ley de Ingresos vigente; el Juez Cívico podrá imponer la sanción máxima si se incurre en consumo de alcohol durante el servicio"
+  },
+  "explicacion_clara": "Los conductores de transporte público colectivo no deben recoger ni dejar pasajeros fuera del carril derecho ni en zonas no autorizadas, ni usar celular, audífonos o escuchar música a alto volumen mientras conducen. Está prohibido fumar, cargar combustible con pasajeros, exceder el número permitido de personas, tirar basura, negar servicio a personas vulnerables o cobrar tarifas no oficiales. Si beben alcohol mientras trabajan, serán sancionados con la pena más alta posible.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 54,
+  "titulo": "Prohibiciones durante maniobras de carga y descarga",
+  "tipo": "prohibiciones",
+  "intents":["prohibiciones_carga_descarga"],
+  "descripcion": "Establece las acciones prohibidas para vehículos motorizados al realizar maniobras de carga y descarga en el municipio.",
+  "sujeto": "vehículos motorizados en maniobras de carga y descarga",
+  "prohibiciones": [
+    {
+      "fraccion": "I",
+      "descripcion": "Obstruir indebidamente la circulación de peatones y vehículos"
+    },
+    {
+      "fraccion": "II",
+      "descripcion": "Realizar maniobras de carga y descarga en doble, triple fila o mayor"
+    },
+    {
+      "fraccion": "III",
+      "descripcion": "Abandonar el vehículo durante las maniobras de carga y descarga",
+      "sancion": {
+        "tipo": "remisión",
+        "descripcion": "El vehículo será remitido al depósito vehicular además de lo previsto en la Ley"
+      }
+    },
+    {
+      "fraccion": "IV",
+      "descripcion": "Apartar lugares en la vía pública, incluso dentro del área de carga y descarga"
+    },
+    {
+      "fraccion": "V",
+      "descripcion": "Realizar maniobras que contravengan las reglas establecidas en el artículo 53"
+    }
+  ],
+  "explicacion_clara": "Cuando se realizan maniobras de carga y descarga, está prohibido bloquear el paso, hacerlo en doble fila, dejar el vehículo solo, apartar lugares o violar las reglas del artículo anterior. Si se deja el vehículo abandonado, puede ser enviado al corralón.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 55,
+  "titulo": "Prohibiciones para vehículos comerciales de transporte de mercancías",
+  "tipo": "prohibiciones",
+  "intents":["prohibiciones_transporte_mercancias"],
+  "descripcion": "Establece las restricciones para vehículos motorizados (de dos o más ruedas) utilizados para actividades comerciales de transporte de mercancías en Jojutla, Morelos.",
+  "sujeto": "vehículos comerciales motorizados de transporte de mercancías",
+  "prohibiciones": [
+    {
+      "fraccion": "I",
+      "descripcion": "Circular sin el equipo necesario para asegurar que la carga esté resguardada y evitar derrames o afectaciones en la vía pública"
+    },
+    {
+      "fraccion": "II",
+      "descripcion": "No contar con equipo adecuado para transporte de alimentos conforme a normas sanitarias"
+    },
+    {
+      "fraccion": "III",
+      "descripcion": "Circular sin identificación visible del vehículo y datos del comercio, incluyendo licencia de funcionamiento"
+    },
+    {
+      "fraccion": "IV",
+      "descripcion": "No contar con documentación para acreditar propiedad de la mercancía cuando lo requiera la autoridad"
+    },
+    {
+      "fraccion": "V",
+      "descripcion": "Transportar objetos que sobresalgan de la cabina o espacios no destinados para carga"
+    },
+    {
+      "fraccion": "VI",
+      "descripcion": "Colocar carga, personas o animales sobre partes del vehículo como el cofre, toldo o salpicaderas"
+    }
+  ],
+  "explicacion_clara": "Los vehículos usados para repartir mercancías no deben circular sin asegurar su carga, sin el equipo sanitario si llevan alimentos, sin la información del negocio visible, ni sin papeles de la mercancía. Tampoco pueden llevar objetos fuera de las áreas diseñadas ni transportar personas o cosas en lugares peligrosos del vehículo.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 60,
+  "titulo": "Prohibiciones de estacionamiento",
+  "tipo": "prohibiciones",
+  "intents":["prohibiciones_estacionamiento"],
+  "descripcion": "Establece los lugares donde está prohibido estacionar vehículos en el municipio de Jojutla.",
+  "sujeto": "conductores de vehículos",
+  "prohibiciones_estacionamiento": [
+    {
+      "fraccion": "I",
+      "descripcion": "Sobre vías peatonales como banquetas y cruces peatonales, incluso si solo una parte del vehículo invade el espacio."
+    },
+    {
+      "fraccion": "II",
+      "descripcion": "Frente a entradas o salidas de vehículos de domicilios particulares."
+    },
+    {
+      "fraccion": "III",
+      "descripcion": "A menos de 10 metros de las esquinas."
+    },
+    {
+      "fraccion": "IV",
+      "descripcion": "En una intersección."
+    },
+    {
+      "fraccion": "V",
+      "descripcion": "Sobre o bajo cualquier puente."
+    },
+    {
+      "fraccion": "VI",
+      "descripcion": "En doble o más filas en la vía."
+    },
+    {
+      "fraccion": "VII",
+      "descripcion": "En carreteras de doble sentido y dos carriles, cuando se esté a menos de 50 metros de otro vehículo estacionado en el lado opuesto o a menos de 100 metros de una curva o cima sin visibilidad."
+    },
+    {
+      "fraccion": "VIII",
+      "descripcion": "Donde exista señalamiento que prohíba estacionarse."
+    },
+    {
+      "fraccion": "IX",
+      "descripcion": "En espacios designados para personas con discapacidad."
+    },
+    {
+      "fraccion": "X",
+      "descripcion": "En el arroyo vehicular donde la guarnición esté pintada de rojo."
+    },
+    {
+      "fraccion": "XI",
+      "descripcion": "En zonas de circulación, accesos o salidas de estaciones, terminales, sitios de taxi o áreas de ascenso y descenso de transporte público."
+    },
+    {
+      "fraccion": "XII",
+      "descripcion": "Frente a bancos, hidrantes, entradas/salidas de escuelas, gasolineras, estacionamientos, rampas, hospitales, templos o eventos masivos."
+    },
+    {
+      "fraccion": "XIII",
+      "descripcion": "En cualquier otro lugar que determine la Dirección de Tránsito y Vialidad Municipal."
+    }
+  ],
+  "sanciones_especiales": [
+    {
+      "fracciones": ["X", "XI"],
+      "tipo": "remisión",
+      "descripcion": "Remisión del vehículo al depósito vehicular, además de lo previsto por la Ley."
+    }
+  ],
+  "convenio_accesibilidad": "El Ayuntamiento podrá celebrar convenios con estacionamientos privados para garantizar el uso correcto de espacios y rampas para personas con discapacidad.",
+  "explicacion_clara": "No estaciones tu vehículo en banquetas, rampas, cruces peatonales, esquinas, puentes, doble fila, frente a entradas, escuelas o donde haya señal de 'No estacionarse'. Respeta los lugares para personas con discapacidad. Si lo haces en zonas marcadas con línea roja o en paradas de transporte público, tu coche puede ser llevado al corralón.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 62,
+  "titulo": "Prohibición de obstrucción no autorizada en la vía pública",
+  "tipo": "prohibiciones",
+  "intents":["obstruccion_via_publica"],
+  "descripcion": "Prohíbe cualquier tipo de obstrucción no autorizada en la vía pública o infraestructura peatonal mediante objetos muebles o inmuebles con fines de apartado, comercio u otros usos no previstos.",
+  "prohibiciones": [
+    {
+      "descripcion": "Obstrucciones de la vía pública o banquetas sin autorización para apartar estacionamiento, fines comerciales u otros no previstos por el Reglamento"
+    },
+    {
+      "descripcion": "Uso indebido de bienes muebles (sillas, botes, objetos diversos) para reservar espacio"
+    },
+    {
+      "descripcion": "Colocación de bienes inmuebles que interfieran con la vía o infraestructura peatonal"
+    },
+    {
+      "descripcion": "Utilizar la calle o banquetas como extensión de talleres o negocios de reparación de vehículos"
+    }
+  ],
+  "procedimientos": [
+    {
+      "caso": "Bienes muebles",
+      "accion": "Retiro inmediato por agentes de tránsito y presentación ante el Juez Cívico"
+    },
+    {
+      "caso": "Bienes inmuebles",
+      "accion": "Notificación al Juez Cívico o Ministerio Público para proceder"
+    },
+    {
+      "caso": "Bienes con identificación comercial",
+      "accion": "Coordinación con la Dirección de Licencias de Funcionamiento y presentación ante el Juez Cívico"
+    },
+    {
+      "caso": "Talleres o negocios en vía pública",
+      "accion": "Traslado de vehículos al depósito y notificación a la Dirección de Licencias"
+    }
+  ],
+  "sanciones": {
+    "tipo": "remisión",
+    "descripcion": "El vehículo será remitido al depósito vehicular, además de lo previsto en la Ley"
+  },
+  "explicacion_clara": "No puedes apartar lugares en la calle, usar banquetas para vender o reparar autos, ni poner obstáculos sin permiso. Si lo haces, te quitarán los objetos y podrías ser multado o enviado al corralón.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 65,
+  "titulo": "Prohibición de abandono de vehículos en la vía pública",
+  "tipo": "prohibiciones",
+  "intents":["abandono_vehiculo_via_publica"],
+  "descripcion": "Prohíbe dejar vehículos abandonados en la vía pública por más de 24 horas.",
+  "sujeto": "propietarios y conductores de vehículos motorizados",
+  "prohibiciones": [
+    {
+      "descripcion": "Abandonar vehículos en la vía pública por un periodo mayor a 24 horas."
+    },
+    {
+      "descripcion": "Mantener vehículos con señales de evidente abandono, aun sin superar las 24 horas."
+    }
+  ],
+  "sanciones": {
+    "tipo": "remisión",
+    "descripcion": "El vehículo será remitido al depósito vehicular, además de otras sanciones previstas en la Ley."
+  },
+  "explicacion_clara": "No se permite dejar un vehículo estacionado en la calle por más de 24 horas seguidas. Si el vehículo muestra señales de estar abandonado (como llantas ponchadas o polvo acumulado), puede ser recogido por las autoridades y enviado al corralón.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 75,
+  "titulo": "Prohibición de obstrucción visual en parabrisas y ventanillas",
+  "tipo": "prohibiciones",
+  "intents":["obstruccion_visual_parabrisas"],
+  "descripcion": "Establece restricciones sobre elementos que obstruyan la visibilidad en los cristales del vehículo.",
+  "prohibiciones": [
+    {
+      "descripcion": "Colocar rótulos, carteles u objetos opacos en parabrisas y ventanillas que impidan la visibilidad del conductor"
+    },
+    {
+      "descripcion": "Oscurecer o pintar los cristales de forma que se impida ver al interior del vehículo"
+    },
+    {
+      "descripcion": "Colocar calcomanías en lugares que interfieran con la visibilidad del conductor"
+    }
+  ],
+  "explicacion_clara": "Está prohibido tapar los parabrisas o ventanillas con cosas como carteles, calcomanías o vidrios polarizados que no permitan ver hacia fuera o hacia dentro del vehículo. Esto es importante para que el conductor tenga buena visibilidad y pueda manejar de forma segura.",
+  "aplicable_en_infracciones": true
+}
+]

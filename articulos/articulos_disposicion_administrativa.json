@@ -1,0 +1,29 @@
+[
+{
+  "articulo": 70,
+  "titulo": "Exención de placas para bicicletas y vehículos no motorizados",
+  "tipo": "disposición administrativa",
+  "descripcion": "Aclara que las bicicletas y otros vehículos no motorizados están exentos de la obligación de portar placas de circulación.",
+  "vehiculos_exentos": [
+    "bicicletas",
+    "vehículos no motorizados"
+  ],
+  "obligacion_de_placas": false,
+  "explicacion_clara": "Este artículo indica que las bicicletas y otros vehículos que no usan motor no necesitan placas de circulación para transitar, a diferencia de los vehículos motorizados.",
+  "aplicable_en_infracciones": false
+},
+{
+  "articulo": 71,
+  "titulo": "Circulación de vehículos con placas extranjeras",
+  "tipo": "disposición administrativa",
+  "intents":["vehiculos_placas_extranjeras"],
+  "descripcion": "Permite la circulación de vehículos con placas extranjeras dentro del municipio durante el periodo legal autorizado por la autoridad competente.",
+  "condiciones": [
+    "El vehículo debe contar con estancia legal en el país",
+    "El propietario o conductor debe acreditar la legal internación del vehículo cuando lo solicite la autoridad de tránsito"
+  ],
+  "explicacion_clara": "Este artículo permite que vehículos con placas extranjeras circulen libremente por el municipio siempre que su estancia en el país sea legal y el conductor pueda demostrarlo con documentación válida cuando lo requiera un agente de tránsito.",
+  "aplicable_en_infracciones": true
+}
+
+]

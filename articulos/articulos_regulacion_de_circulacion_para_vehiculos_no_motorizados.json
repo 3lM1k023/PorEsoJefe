@@ -1,0 +1,23 @@
+[
+{
+  "articulo": 44,
+  "titulo": "Preferencia de circulación por el carril derecho",
+  "tipo": "regulación de circulación para vehículos no motorizados",
+  "intents":["preferencia_carril_derecho"],
+  "estructura": "preferencia con excepciones",
+  "descripcion": "Establece que los vehículos no motorizados deben circular preferentemente por el carril derecho, salvo en casos específicos.",
+  "regla_general": "Los vehículos no motorizados deben circular por el carril derecho",
+  "excepciones": {
+    "giro_izquierda": {
+      "condicion": "Cuando se vaya a girar a la izquierda",
+      "accion_requerida": "Llegar a la esquina próxima, colocarse en el área de espera ciclista y esperar la señal vial para incorporarse a la izquierda"
+    },
+    "rebase_u_obstaculo": {
+      "condicion": "Cuando se requiera rebasar vehículos más lentos o haya obstáculos, vehículos estacionados u obras",
+      "accion_permitida": "Podrá usar un carril diferente al derecho"
+    }
+  },
+  "explicacion_clara": "Las bicicletas deben ir por la derecha, a menos que necesiten dar vuelta a la izquierda o evitar obstáculos o vehículos detenidos.",
+  "aplicable_en_infracciones": true
+}
+]

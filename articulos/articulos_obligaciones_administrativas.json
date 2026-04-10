@@ -1,0 +1,98 @@
+[
+{
+  "articulo": 67,
+  "titulo": "Refrendo y reposición de placas, calcomanía y tarjeta de circulación",
+  "tipo": "obligaciones administrativas",
+  "intents":["refrendo_reposicion_placas"],
+  "descripcion": "Establece la obligación de refrendar y reponer, en caso de pérdida o inutilización, las placas, la calcomanía y la tarjeta de circulación dentro de un plazo determinado.",
+  "obligaciones": [
+    {
+      "descripcion": "Refrendar las placas, calcomanía y tarjeta de circulación en los términos que indiquen las autoridades de movilidad y transporte."
+    },
+    {
+      "descripcion": "En caso de pérdida o inutilización de cualquier documento o placa, se debe realizar la gestión de reposición dentro de un máximo de 30 días naturales."
+    }
+  ],
+  "sancion": {
+    "tipo": "económica",
+    "descripcion": "Multa por no realizar el refrendo o reposición dentro del plazo establecido."
+  },
+  "explicacion_clara": "Las placas, calcomanía y tarjeta de circulación deben renovarse según lo que indiquen las autoridades. Si se pierden o dañan, deben reponerse dentro de 30 días naturales para evitar multas.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 68,
+  "titulo": "Colocación de placa en vehículos específicos",
+  "tipo": "obligaciones administrativas",
+  "intents":["colocacion_placa_vehiculos"],
+  "descripcion": "Indica la obligación de portar una sola placa trasera en ciertos tipos de vehículos motorizados y remolques.",
+  "vehiculos_aplicables": [
+    "motocicletas",
+    "cuatrimotos",
+    "trimotos",
+    "motonetas",
+    "bicimotos",
+    "remolques",
+    "semirremolques"
+  ],
+  "obligaciones": [
+    {
+      "descripcion": "Portar una sola placa colocada en la parte posterior del vehículo."
+    }
+  ],
+  "explicacion_clara": "Este artículo establece que ciertos vehículos como motocicletas, remolques y similares deben llevar únicamente una placa, y debe estar colocada en la parte de atrás.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 69,
+  "titulo": "Colocación y visibilidad de placas y calcomanía",
+  "tipo": "obligaciones administrativas",
+  "intents":["colocacion_visibilidad_placas"],
+  "descripcion": "Establece las normas para la instalación, visibilidad y uso adecuado de las placas y calcomanía de circulación en los vehículos.",
+  "obligaciones": [
+    {
+      "descripcion": "Instalar las placas en el exterior del vehículo, una al frente y otra atrás, en los lugares destinados por el fabricante, asegurando su visibilidad.",
+      "condiciones": [
+        "La placa trasera debe estar iluminada con luz blanca para facilitar su lectura en la oscuridad."
+      ]
+    },
+    {
+      "fraccion": "I",
+      "descripcion": "Las placas deben estar libres de objetos, leyendas, pinturas, luces, dobleces o modificaciones que impidan su legibilidad o alteren su leyenda original."
+    },
+    {
+      "fraccion": "II",
+      "descripcion": "No sustituir las placas por otras decorativas, de otro vehículo o país."
+    },
+    {
+      "fraccion": "III",
+      "descripcion": "Los vehículos con placas de demostración solo podrán circular de 8:00 a 20:00 horas en un radio de hasta 10 km del lugar de expedición y solo para ese fin."
+    },
+    {
+      "fraccion": "IV",
+      "descripcion": "La calcomanía debe adherirse en el medallón (cristal trasero); si no lo hay, en el parabrisas o en otro lugar visible que no limite la visibilidad del conductor."
+    }
+  ],
+  "explicacion_clara": "Este artículo establece cómo deben colocarse las placas y calcomanía de los vehículos: una adelante y otra atrás, en lugares visibles y sin alteraciones. La placa trasera debe tener luz blanca para ser visible de noche. Además, prohíbe usar placas falsas, decorativas o de otros vehículos, regula el uso de placas de demostración y exige que la calcomanía esté colocada en un lugar visible sin estorbar al conductor.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 72,
+  "titulo": "Obligación de informar cambios de domicilio o situación del vehículo",
+  "tipo": "obligaciones administrativas",
+  "intents":["informar_cambios_domicilio_vehiculo"],
+  "descripcion": "Establece que los propietarios de vehículos deben notificar a las autoridades de Tránsito y Movilidad sobre cualquier cambio de domicilio o situación legal/material del vehículo en un plazo determinado.",
+  "obligaciones": [
+    {
+      "descripcion": "Informar el cambio de domicilio a la oficina de Tránsito correspondiente",
+      "plazo": "30 días naturales"
+    },
+    {
+      "descripcion": "Informar cualquier cambio en la propiedad, situación jurídica o material del vehículo a la autoridad de Movilidad y Transporte",
+      "plazo": "30 días naturales"
+    }
+  ],
+  "explicacion_clara": "Si cambias de domicilio o vendes tu vehículo, debes notificarlo a las oficinas de Tránsito y Movilidad en un plazo máximo de 30 días. Esto asegura que los registros del vehículo estén actualizados ante las autoridades.",
+  "aplicable_en_infracciones": true
+}
+]

@@ -1,0 +1,19 @@
+[
+{
+  "articulo": 83,
+  "titulo": "Colocación de señalización de sentido de circulación",
+  "tipo": "atribución y señalización",
+  "descripcion": "La Dirección de Tránsito y Vialidad Municipal, junto con otras dependencias competentes, podrá instalar señales que indiquen el sentido de circulación en las calles.",
+  "autoridad_responsable": "Dirección de Tránsito y Vialidad Municipal",
+  "coordinacion": "Dependencias Municipales competentes",
+  "medida": "Instalación de flechas indicativas del sentido de circulación",
+  "ubicacion_de_flechas": [
+    "Esquinas de las calles",
+    "Altura de las placas de nomenclatura",
+    "Sobre los muros de las casas"
+  ],
+  "explicacion_clara": "Este artículo permite a las autoridades municipales colocar flechas visibles en esquinas y muros para indicar el sentido en el que deben circular los vehículos, facilitando la orientación y evitando confusión o accidentes en calles de un solo sentido.",
+  "aplicable_en_infracciones": false
+}
+
+]

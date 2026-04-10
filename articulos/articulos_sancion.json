@@ -1,0 +1,153 @@
+[
+ {
+  "articulo": 38,
+  "titulo": "Sanciones por conducir en estado de ebriedad",
+  "tipo": "sancion",
+  "intents":["sanciones_conducir_ebriedad"],
+  "descripcion": "Establece las sanciones para quienes conduzcan en estado de ebriedad según el artículo 37.",
+  "estructura": "condicional",
+  "sanciones": {
+    "primera_vez": {
+      "arresto": "hasta 12 horas",
+      "sancion_economica": "según la Ley de Ingresos vigente",
+      "autoridad": "Juez Cívico"
+    },
+    "reincidencia": {
+      "arresto": "24 a 36 horas",
+      "sancion_economica": "según la Ley de Ingresos vigente",
+      "autoridad": "Juez Cívico"
+    },
+    "sanciones_adicionales": [
+      "multas cívicas de trabajo a favor de la comunidad",
+      "educación vial"
+    ]
+  },
+  "otras_sustancias": {
+    "descripcion": "Sanción aplicable cuando el conductor esté bajo los efectos de otras sustancias que afecten su capacidad de conducción de forma similar o mayor al alcohol.",
+    "determinacion": "Procedimiento médico correspondiente",
+    "autoridad": "Juez Cívico",
+    "sancion_economica": "equivalente a la del alcohol, según la Ley de Ingresos vigente"
+  },
+  "explicacion_clara": "Si manejas en estado de ebriedad, puedes ser arrestado hasta por 12 horas y multado. Si reincides, el arresto sube hasta 36 horas. También puedes ser obligado a hacer trabajo comunitario o tomar cursos de educación vial. Si vas drogado, las sanciones son iguales o mayores.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 50,
+  "titulo": "Sanciones por incumplimiento de conductores de motocicletas",
+  "tipo": "sanciones",
+  "intents":["sanciones_motociclistas"],
+  "descripcion": "Los conductores de motocicletas que incumplan las disposiciones del capítulo correspondiente serán sancionados.",
+  "sujeto": "conductores de motocicletas",
+  "base_legal": "Ley de Ingresos",
+  "sanciones": {
+    "tipo": "económicas",
+    "descripcion": "De acuerdo con los montos establecidos en la Ley de Ingresos vigente."
+  },
+  "explicacion_clara": "Si un motociclista no cumple con las reglas establecidas, se le aplicará una multa económica según lo que marca la Ley de Ingresos del municipio.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 99,
+  "titulo": "Sanciones por lesiones o daños materiales en hechos de tránsito",
+  "tipo": "sancionatorio",
+  "intents":["sanciones_danos_lesiones"],
+  "descripcion": "Establece que las sanciones por hechos de tránsito que resulten en lesiones a terceros o daños materiales se impondrán conforme a la Ley de Ingresos, sin perjuicio de las responsabilidades penales que puedan aplicarse.",
+  "sujeto": "Conductores involucrados en hechos de tránsito con lesiones o daños materiales",
+  "obligaciones": [],
+  "explicacion_clara": "Si un conductor causa lesiones o daños materiales en un accidente, se le impondrán multas económicas según la Ley de Ingresos, y además puede enfrentar sanciones penales si el caso lo amerita.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 100,
+  "titulo": "Tipos de sanciones aplicables por infracciones al reglamento",
+  "tipo": "sancionatorio",
+  "intents":["tipos_sanciones_transito"],
+  "descripcion": "Establece los distintos tipos de sanciones que pueden imponerse por infringir el Reglamento de Tránsito, así como quién califica la infracción.",
+  "sujeto": "Infractores del Reglamento de Tránsito",
+  "sanciones": [
+    "Amonestación verbal",
+    "Multa basada en Unidades de Medida de Actualización (UMA) vigentes en Morelos",
+    "Multas Cívicas: trabajo comunitario o cursos de educación vial",
+    "Arresto hasta por 36 horas",
+    "Retiro de circulación y remisión del vehículo al depósito oficial"
+  ],
+  "autoridad_que_califica": "Juez Cívico",
+  "excepcion": "El retiro de circulación y remisión del vehículo no requiere calificación del Juez Cívico si está señalado en el reglamento",
+  "explicacion_clara": "Las sanciones por infracciones pueden ir desde una advertencia verbal hasta arresto por 36 horas o el envío del vehículo al corralón. El Juez Cívico decide la sanción, excepto cuando el reglamento ya especifica el retiro del vehículo.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 101,
+  "titulo": "Determinación y pago de sanciones económicas",
+  "tipo": "sancionatorio",
+  "intents":["pago_multas_transito"],
+  "descripcion": "Establece que los montos de las sanciones económicas se determinarán conforme a la Ley de Ingresos vigente y serán establecidos por el Juez Cívico, debiendo pagarse ante la Tesorería del Ayuntamiento o instancias delegadas.",
+  "sujeto": "Personas sancionadas por infracciones al Reglamento de Tránsito",
+  "criterios_para_monto": [
+    "Ley de Ingresos vigente del año fiscal en curso",
+    "Determinación del Juez Cívico calificador"
+  ],
+  "lugar_de_pago": [
+    "Tesorería del Ayuntamiento",
+    "Instancias delegadas expresamente por la Tesorería"
+  ],
+  "explicacion_clara": "Las multas económicas se calculan con base en la Ley de Ingresos del año vigente y lo que dictamine el Juez Cívico. Estas deben pagarse en la Tesorería del Ayuntamiento o en lugares autorizados oficialmente.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 102,
+  "titulo": "Descuentos a multas económicas",
+  "tipo": "sancionatorio",
+  "intents":["descuentos_multas_transito"],
+  "descripcion": "Faculta al Presidente Municipal para autorizar descuentos en multas económicas por infracciones de tránsito, con ciertas excepciones definidas.",
+  "autoridad_que_puede_aplicar_descuento": "Presidente Municipal",
+  "condiciones_para_descuento": "Con base en la Ley de Ingresos vigente",
+  "excepciones": [
+    "Conductores en estado de ebriedad o bajo efectos de sustancias prohibidas",
+    "Cuando se cause daño al patrimonio público o municipal",
+    "Cuando se afecte la vida, seguridad, integridad o salud de terceros"
+  ],
+  "exclusiones_adicionales": [
+    "No hay descuentos en sanciones cívicas impuestas por el Juez Cívico",
+    "No hay descuentos para infractores reincidentes"
+  ],
+  "explicacion_clara": "El Presidente Municipal puede reducir el monto de una multa por infracción de tránsito, salvo en casos graves como conducir ebrio, dañar bienes públicos, afectar a personas o ser reincidente. Las sanciones cívicas no pueden tener descuentos.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 109,
+  "titulo": "Tipos de multas cívicas",
+  "tipo": "sancionador",
+  "intents":["tipos_multas_civicas"],
+  "descripcion": "Establece los tipos de multas cívicas que pueden imponerse: trabajo a favor de la comunidad o cursos de educación vial, y su aplicación conforme a los lineamientos del Reglamento y la Ley de Ingresos.",
+  "tipos_multas_civicas": [
+    {
+      "tipo": "trabajo_comunitario",
+      "descripcion": "El Juez Cívico determinará el tipo de trabajo a realizar conforme a los lineamientos establecidos en el Reglamento."
+    },
+    {
+      "tipo": "curso_educacion_vial",
+      "descripcion": "Se impondrá solo como sanción adicional en las conductas previstas explícitamente en el Reglamento y en conjunto con la multa económica según la Ley de Ingresos."
+    }
+  ],
+  "autoridad_que_impone": "Juez Cívico",
+  "aplicable_en_infracciones": true,
+  "explicacion_clara": "Las multas cívicas pueden ser trabajo comunitario o cursos de educación vial. El juez decide el tipo de trabajo y los cursos solo se aplican si el Reglamento lo indica expresamente."
+},
+{
+  "articulo": 110,
+  "titulo": "Reducción o sustitución de sanción económica por trabajo comunitario",
+  "tipo": "sancionador",
+  "intents":["multa_sustitucion_trabajo"],
+  "descripcion": "Faculta al Juez Cívico para sustituir una multa económica por trabajo comunitario, considerando las circunstancias personales del infractor.",
+  "condiciones_aplicacion": [
+    "El Juez Cívico debe valorar las circunstancias personales del infractor.",
+    "El trabajo comunitario debe sujetarse a los programas del Ayuntamiento.",
+    "La sanción económica solo se cancela una vez ejecutadas las actividades."
+  ],
+  "obligacion_autoridad": "El Juez debe informar al infractor sobre la posibilidad de acceder a esta prerrogativa.",
+  "autoridad_que_aplica": "Juez Cívico",
+  "aplicable_en_infracciones": true,
+  "explicacion_clara": "El Juez puede cambiar la multa por trabajo comunitario si el infractor lo amerita, pero esta sanción solo se elimina cuando se cumpla el trabajo asignado."
+}
+]

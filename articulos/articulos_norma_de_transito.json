@@ -1,0 +1,51 @@
+[
+{
+  "articulo": 84,
+  "titulo": "Obediencia a los semáforos",
+  "tipo": "norma de tránsito",
+  "intents":["obediencia_semaforos"],
+  "descripcion": "Establece las obligaciones de conductores y peatones respecto a las señales luminosas de los semáforos.",
+  "reglas": {
+    "I": {
+      "titulo": "Luz verde",
+      "descripcion": "Permite el avance",
+      "conductores": "Pueden seguir de frente o dar vuelta a la derecha o izquierda, salvo señal en contra.",
+      "peatones": "Pueden avanzar en paralelo al flujo vehicular."
+    },
+    "II": {
+      "titulo": "Luz ámbar (preventiva)",
+      "descripcion": "Advierte que cambiará a rojo",
+      "conductores": "Deben evitar ingresar a la intersección, salvo que no puedan detenerse sin peligro.",
+      "peatones": "No deben comenzar a cruzar."
+    },
+    "III": {
+      "titulo": "Luz roja",
+      "descripcion": "Indica alto total",
+      "conductores": "Deben detenerse antes del cruce peatonal.",
+      "peatones": "No deben ingresar al arroyo vehicular."
+    },
+    "IV": {
+      "titulo": "Flecha verde",
+      "descripcion": "Permite avanzar en la dirección que indica",
+      "conductores": "Pueden continuar en esa dirección, cediendo el paso a peatones."
+    },
+    "V": {
+      "titulo": "Luz roja intermitente",
+      "descripcion": "Alto obligatorio",
+      "conductores": "Deben detenerse y continuar solo si no hay peligro, salvo en cruces ferroviarios donde no se puede continuar."
+    },
+    "VI": {
+      "titulo": "Luz ámbar intermitente",
+      "descripcion": "Precaución",
+      "conductores": "Deben reducir la velocidad y continuar con cuidado."
+    },
+    "VII": {
+      "titulo": "Luz verde intermitente",
+      "descripcion": "Próximo cambio a luz ámbar",
+      "conductores": "Indica que el semáforo cambiará a ámbar pronto."
+    }
+  },
+  "explicacion_clara": "Este artículo regula el comportamiento de conductores y peatones ante las luces del semáforo, definiendo qué acción corresponde a cada color o tipo de luz (fija o intermitente). Su objetivo es ordenar el tránsito y prevenir accidentes.",
+  "aplicable_en_infracciones": true
+}
+]

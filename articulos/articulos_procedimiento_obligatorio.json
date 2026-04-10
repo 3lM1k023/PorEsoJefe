@@ -1,0 +1,48 @@
+[
+{
+  "articulo": 91,
+  "titulo": "Obligaciones del conductor en hechos de tránsito con lesionados o fallecidos",
+  "tipo": "procedimiento obligatorio",
+  "intents":["obligaciones_conductor_accidente_lesionados"],
+  "descripcion": "Indica las acciones que debe seguir un conductor cuando se ve involucrado en un hecho de tránsito que causa lesiones o la muerte de una persona, siempre que no requiera atención médica inmediata.",
+  "sujeto": "Conductores de vehículos motorizados involucrados en hechos de tránsito con lesionados o fallecidos",
+  "obligaciones": [
+    "Detenerse inmediatamente y permanecer en el lugar del incidente para prestar asistencia a los lesionados y notificar a las autoridades competentes y servicios de emergencia.",
+    "Colocar señales reflejantes a una distancia aproximada de 20 metros o 25 pasos del vehículo, y encender las luces intermitentes si es posible.",
+    "Mover a personas lesionadas solo si no hay atención médica inmediata o si hay peligro inminente.",
+    "Llamar a la aseguradora para hacer uso de la póliza de responsabilidad civil por daños a terceros.",
+    "No mover vehículos ni cuerpos en caso de fallecimiento hasta que lo autoricen las autoridades competentes.",
+    "Retirar los vehículos solo cuando lo autoricen las autoridades para despejar la vía pública."
+  ],
+  "remision_MP": {
+    "condiciones": "Lesiones o fallecimiento",
+    "accion": "El agente o autoridad de tránsito remitirá a los conductores ante el Ministerio Público para el deslinde de responsabilidades."
+  },
+  "explicacion_clara": "Si un conductor se ve involucrado en un accidente con personas heridas o fallecidas y no necesita atención médica urgente, debe quedarse en el lugar, ayudar, avisar a emergencias, usar su seguro, y no mover a los heridos ni los vehículos sin autorización. El caso será turnado al Ministerio Público.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 92,
+  "titulo": "Procedimiento en hechos de tránsito con solo daños materiales",
+  "tipo": "procedimiento obligatorio",
+  "intents":["procedimiento_danos_materiales"],
+  "descripcion": "Establece el procedimiento a seguir cuando un hecho de tránsito ocasiona únicamente daños materiales, ya sean en bienes privados o públicos.",
+  "sujeto": "Conductores involucrados en hechos de tránsito sin personas lesionadas",
+  "obligaciones": [
+    "Detenerse inmediatamente en el lugar del incidente o lo más cerca posible y permanecer en el sitio hasta que llegue la autoridad de tránsito.",
+    "Encender luces intermitentes y colocar señalamientos que adviertan a los demás conductores.",
+    "Llamar a la aseguradora para hacer uso de su póliza de seguro por daños a terceros.",
+    "Si hay acuerdo entre las partes, mover los vehículos para no obstruir el tránsito (si no hay síntomas de intoxicación ni daños a bienes públicos).",
+    "Si no hay acuerdo, el agente remitirá a los involucrados ante la autoridad correspondiente.",
+    "Responder por los daños en bienes públicos, sin perjuicio de otras disposiciones legales.",
+    "Dar aviso a autoridades si los daños afectan bienes de la Nación, Estado o Municipio.",
+    "Permitir al agente de tránsito elaborar un reporte detallado del incidente con evidencia gráfica y documental."
+  ],
+  "restricciones": [
+    "Si algún conductor no tiene póliza vigente de responsabilidad civil, se aplicará una sanción según la Ley de Ingresos.",
+    "Si alguno de los conductores está bajo efectos de alcohol o sustancias prohibidas, se aplicará la sanción correspondiente aun cuando haya acuerdo entre las partes."
+  ],
+  "explicacion_clara": "Cuando un accidente solo cause daños materiales, los involucrados deben detenerse, advertir a otros conductores, avisar a su seguro y, si están de acuerdo, mover los vehículos. Si hay desacuerdo, el agente los llevará ante la autoridad. Si hay daños públicos, deberán pagar. Si alguien no tiene seguro o va intoxicado, será sancionado.",
+  "aplicable_en_infracciones": true
+}
+]

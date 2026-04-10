@@ -1,0 +1,59 @@
+[
+{
+  "articulo": 95,
+  "titulo": "Registro e índice actualizado de hechos de tránsito",
+  "tipo": "administrativo",
+  "intents": ["registro_hechos_transito"],
+  "descripcion": "La Dirección de Tránsito y Vialidad Municipal deberá llevar un registro actualizado de hechos de tránsito, conductores involucrados e infractores, así como vehículos implicados, e integrará una base de datos con dicha información para compartirla con la Autoridad Estatal.",
+  "sujeto": "Dirección de Tránsito y Vialidad Municipal",
+  "obligaciones": [
+    "Contar con un registro e índice actualizado de hechos de tránsito por: número, causa, lugar, fecha, personas lesionadas o fallecidas e importe de los daños materiales.",
+    "Llevar registro de conductores infractores, reincidentes y responsables de hechos de tránsito.",
+    "Registrar datos de los vehículos involucrados en hechos de tránsito, incluyendo marca, tipo, placas, modelo, color, tipo de servicio y datos del propietario.",
+    "Integrar una base de datos con personas sancionadas.",
+    "Compartir dicha base de datos con la Autoridad Estatal."
+  ],
+  "estructura_registro": {
+    "hechos_de_transito": [
+      "Número",
+      "Causa",
+      "Lugar",
+      "Fecha",
+      "Personas lesionadas",
+      "Personas fallecidas",
+      "Importe de daños materiales"
+    ],
+    "conductores": [
+      "Infractores",
+      "Reincidentes",
+      "Responsables de hechos de tránsito"
+    ],
+    "vehiculos": [
+      "Marca",
+      "Tipo",
+      "Placas",
+      "Modelo",
+      "Color",
+      "Tipo de servicio",
+      "Datos del propietario"
+    ]
+  },
+  "explicacion_clara": "La Dirección de Tránsito debe tener un registro detallado y actualizado de todos los accidentes, los conductores involucrados y los vehículos. También debe compartir esta información con el gobierno estatal.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 96,
+  "titulo": "Reporte diario de agentes de tránsito",
+  "tipo": "administrativo",
+  "intents":["reporte_diario_agente"],
+  "descripcion": "Obliga a los agentes de tránsito a entregar un reporte diario por escrito a sus superiores, detallando todos los asuntos en los que hayan intervenido durante su jornada.",
+  "sujeto": "Agentes de Tránsito",
+  "obligaciones": [
+    "Entregar un reporte diario por escrito a sus superiores.",
+    "El reporte debe incluir todos los asuntos en los que haya intervenido el agente."
+  ],
+  "explicacion_clara": "Cada agente de tránsito debe entregar un informe por escrito cada día a sus superiores, indicando todo lo que hizo o en lo que participó.",
+  "aplicable_en_infracciones": false
+}
+
+]

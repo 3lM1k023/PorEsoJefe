@@ -1,0 +1,22 @@
+[
+{
+  "articulo": 43,
+  "titulo": "Derecho de circulación en ausencia de infraestructura ciclista",
+  "tipo": "preferencia y uso de carril",
+  "intents":["derecho_ciclistas_carril"],
+  "estructura": "regla de prioridad y ocupación de carril",
+  "descripcion": "Define el derecho de los vehículos no motorizados a ocupar el carril completo cuando no existe infraestructura ciclista, y su prioridad cuando circulan en contingentes.",
+  "condiciones": {
+    "sin_infraestructura_ciclista": {
+      "puede_ocupar_carril_completo": true
+    },
+    "contingentes_organizados": {
+      "prioridad_en_la_via": true,
+      "pueden_usar": "parte o la totalidad de la vía",
+      "segun": "número de participantes"
+    }
+  },
+  "explicacion_clara": "Si no hay ciclovía, las bicicletas pueden usar todo el carril como si fueran un vehículo más. Si hay una rodada o grupo organizado de ciclistas, pueden usar más espacio de la calle, incluso toda la vía, dependiendo de cuántos sean.",
+  "aplicable_en_infracciones": true
+}
+]

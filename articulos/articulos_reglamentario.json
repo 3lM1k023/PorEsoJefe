@@ -1,0 +1,48 @@
+[
+{
+  "articulo": 85,
+  "titulo": "Autorización para incorporar infraestructura vial",
+  "tipo": "reglamentario",
+  "intents":["autorizacion_infraestructura_vial"],
+  "descripcion": "Establece los requisitos para incorporar infraestructura, servicios o elementos a la vialidad municipal.",
+  "sujeto": "Personas físicas o morales que deseen modificar o incorporar elementos a la vía pública",
+  "requisitos": {
+    "autorizaciones_necesarias": [
+      "Dirección de Tránsito y Vialidad Municipal",
+      "Dirección de Obras Públicas"
+    ],
+    "posibles_estudios": "La Dirección de Tránsito puede requerir estudios técnicos de vialidad",
+    "coordinacion_adicional": "Con la Dirección de Fraccionamientos, Condominios y Uso de Suelo"
+  },
+  "infraestructura_regulada": [
+    "Isletas",
+    "Vibradores",
+    "Vados",
+    "Topes",
+    "Guías"
+  ],
+  "condicion_para_colocacion": "Deben contar con autorización previa del Ayuntamiento",
+  "explicacion_clara": "Este artículo señala que cualquier modificación o adición a la vía pública, como topes, vibradores o isletas, requiere autorización oficial. Además, se podrá pedir un estudio técnico de vialidad para garantizar que los cambios no afecten negativamente la circulación.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 86,
+  "titulo": "Elementos de las vialidades y su modificación",
+  "tipo": "reglamentario",
+  "intents":["modificacion_elementos_vialidad"],
+  "descripcion": "Regula la construcción, modificación y daño de los elementos inherentes e incorporados a las vialidades.",
+  "sujeto": "Personas físicas o morales que diseñen, construyan, modifiquen o dañen elementos de la vialidad",
+  "obligaciones": [
+    "Diseñar, construir y colocar los elementos de vialidad conforme a la normatividad vigente",
+    "Garantizar seguridad, accesibilidad (diseño universal) y eficiencia de circulación",
+    "Solicitar autorización expresa del Ayuntamiento para cualquier modificación"
+  ],
+  "sanciones": {
+    "tipo": "económica y de reparación",
+    "autoridad": "Juez Cívico",
+    "detalle": "Sanción proporcional al daño causado más multa conforme a la Ley"
+  },
+  "explicacion_clara": "Este artículo establece que cualquier cambio o construcción en la infraestructura vial debe cumplir con normas oficiales y contar con autorización del Ayuntamiento. Si se daña parte de esa infraestructura, el responsable deberá pagar por la reparación y enfrentar una multa adicional.",
+  "aplicable_en_infracciones": true
+}
+]

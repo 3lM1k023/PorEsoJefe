@@ -1,0 +1,76 @@
+[
+{
+  "articulo": 39,
+  "titulo": "Verificación de estado de ebriedad",
+  "tipo": "procedimiento",
+  "intents":["verificacion_estado_ebriedad"],
+  "descripcion": "Establece cómo pueden los agentes de tránsito verificar el estado de ebriedad de un conductor y las condiciones para aplicar el examen.",
+  "estructura": "condicional",
+  "verificacion": {
+    "modalidades": [
+      "Operativos con alcoholímetro siguiendo protocolos",
+      "Verificación regular si el conductor presenta síntomas visibles"
+    ],
+    "documentacion": "El agente debe registrar los síntomas visibles observados",
+    "obligacion_del_conductor": "Someterse a pruebas médicas para determinar el grado de intoxicación",
+    "examen_fuera_operativo": {
+      "costo": {
+        "a_cargo_del_conductor": "Si hay síntomas visibles debidamente documentados",
+        "a_cargo_del_ayuntamiento": "Si no se acreditan los indicios visibles"
+      }
+    }
+  },
+  "sanciones_para_agentes": {
+    "descripcion": "Abusos o remisiones injustificadas por parte de agentes de tránsito serán sancionados",
+    "responsables": [
+      "Superiores jerárquicos",
+      "Procedimientos de control interno"
+    ],
+    "normativa": "De conformidad con la Ley"
+  },
+  "explicacion_clara": "Los agentes pueden hacerte pruebas de alcohol si estás en un operativo o si ven que estás actuando como borracho. Deben anotar tus síntomas. Si no estás ebrio y te hicieron el examen, el gobierno paga. Si sí estás, tú lo pagas. Si el agente abusa, será sancionado.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 66,
+  "titulo": "Procedimiento para el retiro de vehículos estacionados en lugares prohibidos o abandonados",
+  "tipo": "procedimientos",
+  "intents":["retiro_vehiculo_prohibido_abandonado"],
+  "descripcion": "Establece el proceso que deben seguir las autoridades de tránsito para el retiro y resguardo de vehículos estacionados en lugares prohibidos o abandonados.",
+  "condiciones_para_retiro": [
+    "Vehículo estacionado en lugar prohibido",
+    "Vehículo en evidente estado de abandono"
+  ],
+  "procedimiento": [
+    {
+      "fraccion": "I",
+      "descripcion": "Una vez remitido al depósito vehicular, los agentes deben informar a sus superiores y sellar el vehículo para garantizar su conservación y la seguridad de los objetos en su interior."
+    },
+    {
+      "fraccion": "II",
+      "descripcion": "Durante el traslado, deben tener precauciones para evitar daños al vehículo."
+    },
+    {
+      "fraccion": "III",
+      "descripcion": "Se debe notificar al propietario, quien podrá recuperar el vehículo tras pagar el traslado, el depósito, el inventario, las multas y acreditar la propiedad. Si no se atiende la notificación, el vehículo será puesto a disposición del Ministerio Público."
+    }
+  ],
+  "explicacion_clara": "Cuando un vehículo esté mal estacionado o abandonado, las autoridades pueden llevarlo con una grúa al depósito. Deben cuidarlo, sellarlo para proteger sus pertenencias, avisar al dueño y permitirle recuperarlo si paga lo necesario y demuestra que es suyo. Si no responde, el caso pasa al Ministerio Público.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 82,
+  "titulo": "Visibilidad de agentes en la oscuridad",
+  "tipo": "procedimiento",
+  "descripcion": "Requisitos para que los agentes de tránsito puedan dirigir la circulación en condiciones de oscuridad.",
+  "obligaciones_agente_transito": [
+    "Portar guantes reflejantes",
+    "Usar mangas reflejantes",
+    "Contar con lámparas de mano",
+    "Utilizar cualquier aditamento que facilite la visibilidad de sus señales"
+  ],
+  "explicacion_clara": "Este artículo establece que, durante la noche o en condiciones de poca visibilidad, los agentes de tránsito deben portar equipo reflectante o iluminado para asegurar que sus señales sean claramente visibles por los conductores. Esto contribuye a prevenir accidentes y a mantener el orden vial incluso en condiciones de oscuridad.",
+  "aplicable_en_infracciones": false
+}
+
+]

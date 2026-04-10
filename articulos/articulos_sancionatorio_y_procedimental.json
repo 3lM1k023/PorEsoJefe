@@ -1,0 +1,16 @@
+[
+{
+  "articulo": 104,
+  "titulo": "Acumulación de sanciones y notificación al Gobierno del Estado",
+  "tipo": "sancionatorio y procedimental",
+  "intents":["acumulacion_sanciones_notificacion"],
+  "descripcion": "Establece que se acumulan sanciones cuando se violan varias disposiciones del reglamento en un mismo hecho, y que el Juez Cívico notificará al Gobierno del Estado cuando existan causales de suspensión o cancelación de licencia.",
+  "contenido": {
+    "acumulacion_sanciones": "Si en uno o varios hechos se violan múltiples disposiciones del reglamento, se aplicarán las sanciones correspondientes a cada una.",
+    "notificacion_estado": "El Juez Cívico enviará a la autoridad estatal los antecedentes e informes de los conductores que incurran en infracciones que pueden causar la suspensión o cancelación de la licencia o permiso, según la ley estatal."
+  },
+  "explicacion_clara": "Cuando un conductor comete varias infracciones al mismo tiempo, se le sanciona por cada una. Además, si estas infracciones son graves y podrían causar la suspensión o cancelación de la licencia, el Juez Cívico deberá notificar al Gobierno del Estado.",
+  "aplicable_en_infracciones": true
+}
+
+]

@@ -1,0 +1,26 @@
+[
+ {
+  "articulo": 35,
+  "titulo": "Excepciones para vehículos de emergencia en situación de emergencia",
+  "tipo": "excepcion",
+  "descripcion": "Este artículo permite a los vehículos de emergencia, en casos de emergencia real, omitir ciertas normas viales bajo condiciones específicas.",
+  "estructura": "fracciones",
+  "intents":["vehiculos_emergencia_excepcion"],
+  "contenido": {
+    "I": "Pueden desatender la señalización vial.",
+    "II": "Pueden transitar en sentido contrario.",
+    "III": "Pueden exceder los límites de velocidad.",
+    "IV": "Pueden ignorar reglas de preferencia de paso y luces rojas, siempre reduciendo la velocidad.",
+    "V": "Pueden estacionarse o detenerse en lugares prohibidos."
+  },
+  "condiciones": [
+    "Estas acciones solo aplican si el vehículo circula con luces encendidas y señales audibles.",
+    "El conductor debe tomar todas las medidas de seguridad necesarias.",
+    "No exime al conductor de su responsabilidad sobre daños o riesgos ocasionados.",
+    "Si no existe una emergencia real, el conductor será sancionado según el control interno de su institución."
+  ],
+  "explicacion_clara": "Los vehículos de emergencia como ambulancias, bomberos y patrullas pueden romper ciertas reglas viales (como saltarse semáforos o ir en sentido contrario) solo cuando van a atender una emergencia y usan luces y sirena. Deben hacerlo con cuidado y no pueden abusar de este permiso.",
+  "aplicable_en_infracciones": false,
+  "es_excepcion_legal": true
+ }
+]

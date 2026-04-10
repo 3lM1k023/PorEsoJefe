@@ -1,0 +1,39 @@
+[
+{
+  "articulo": 45,
+  "titulo": "Prohibiciones para conductores de vehículos no motorizados",
+  "tipo": "prohibiciones específicas",
+  "intents":["prohibiciones_ciclistas"],
+  "descripcion": "Establece las acciones prohibidas a los conductores de vehículos no motorizados, principalmente ciclistas.",
+  "prohibiciones": [
+    {
+      "fraccion": "I",
+      "descripcion": "Circular sobre las aceras, banquetas y áreas exclusivas para peatones",
+      "excepciones": [
+        "Niños menores de doce años",
+        "Ingreso a domicilio o estacionamiento, desmontando y caminando junto al vehículo"
+      ],
+      "sancion": {
+        "tipo": "multa cívica",
+        "detalle": "Curso de Educación Vial impartido por la Dirección de Tránsito y Vialidad Municipal",
+        "conmutable": false,
+        "retencion_de_documentos": false
+      }
+    },
+    {
+      "fraccion": "II",
+      "descripcion": "Detenerse sobre las áreas reservadas para el tránsito de peatones",
+      "sancion": "Amonestación verbal"
+    },
+    {
+      "fraccion": "III",
+      "descripcion": "Circular entre carriles",
+      "excepcion": "Permitido solo cuando el tránsito esté detenido y el ciclista busque llegar a un área de espera o punto visible para reiniciar la marcha",
+      "sancion": "Amonestación verbal"
+    }
+  ],
+  "observaciones": "Las amonestaciones serán verbales excepto la fracción I, que amerita sanción cívica obligatoria.",
+  "explicacion_clara": "A los ciclistas se les prohíbe circular por las banquetas y zonas peatonales (excepto si son niños menores de 12 años o si van a su casa o estacionamiento caminando junto a la bicicleta), detenerse en zonas para peatones o moverse entre carriles de autos salvo que el tránsito esté detenido y busquen avanzar de forma segura. Si incumplen esto, pueden recibir una llamada de atención, y si violan la primera regla, deberán tomar un curso obligatorio de educación vial.",
+  "aplicable_en_infracciones": true
+}
+]

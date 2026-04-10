@@ -1,0 +1,26 @@
+[
+{
+  "articulo": 58,
+  "titulo": "Dimensiones máximas permitidas para vehículos pesados",
+  "tipo": "restricciones y procedimiento de excepción",
+  "intents":["dimensiones_maximas_vehiculos_pesados"],
+  "descripcion": "Establece las dimensiones máximas que deben cumplir los vehículos pesados para circular por el Municipio de Jojutla, y el procedimiento a seguir en caso de requerir una excepción.",
+  "sujeto": "vehículos pesados",
+  "dimensiones_maximas": {
+    "longitud": "12 metros (hasta 19 metros para articulados)",
+    "ancho": "2.60 metros (incluyendo la carga)",
+    "altura": "4 metros (incluyendo la carga)"
+  },
+  "excepcion": {
+    "condicion": "Cuando se excedan estas dimensiones por causas justificadas",
+    "procedimiento": "Se debe solicitar autorización por escrito a la Dirección de Tránsito y Vialidad Municipal",
+    "autoridad": "La Dirección podrá determinar los requisitos, vías permitidas o rutas alternativas"
+  },
+  "sanciones": {
+    "tipo": "económicas y administrativas",
+    "descripcion": "Las conductas serán sancionadas conforme a una tabla específica que debe ser consultada"
+  },
+  "explicacion_clara": "Los camiones grandes que transiten por Jojutla no deben medir más de 12 metros de largo (o 19 si son articulados), 2.60 metros de ancho y 4 metros de alto. Si un vehículo necesita pasar y excede esas medidas, debe pedir permiso especial a Tránsito Municipal, quien podrá dar rutas alternativas para evitar molestias a otros.",
+  "aplicable_en_infracciones": true
+}
+]

@@ -1,0 +1,32 @@
+[
+{
+  "articulo": 42,
+  "titulo": "Cruce de ciclistas en vías secundarias con señal de alto o semáforo en rojo",
+  "tipo": "excepción condicional",
+  "estructura": "condicional",
+  "intents":["ciclistas_cruce_rojo_alto"],
+  "descripcion": "Permite a los ciclistas continuar su camino en vías secundarias con semáforo en rojo o señal de alto, bajo condiciones específicas de seguridad.",
+  "condiciones_para_cruzar": {
+    "permite_seguir_de_frente": true,
+    "requisitos": [
+      "Disminuir la velocidad razonablemente",
+      "Voltear a ambos lados",
+      "Asegurarse de que no hay peatones o vehículos aproximándose",
+      "Verificar que existen condiciones de visibilidad adecuadas"
+    ],
+    "obligacion_de_dar_el_paso": true,
+    "en_caso_de": [
+      "Existencia de peatones o vehículos en la vía transversal",
+      "Falta de visibilidad suficiente"
+    ]
+  },
+  "accion_requerida_en_caso_de_riesgo": [
+    "Hacer alto total",
+    "Ceder el paso a peatones o vehículos",
+    "Verificar nuevamente antes de continuar"
+  ],
+  "explicacion_clara": "Si eres ciclista y te encuentras con un semáforo en rojo o una señal de alto en una vía secundaria, puedes seguir de frente solo si vas con cuidado, revisas que no haya peatones o autos, y que puedes ver bien. Si no es seguro, debes detenerte y ceder el paso.",
+  "aplicable_en_infracciones": true
+}
+
+]

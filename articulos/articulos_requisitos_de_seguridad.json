@@ -1,0 +1,19 @@
+[
+{
+  "articulo": 74,
+  "titulo": "Extintores obligatorios en vehículos de uso comercial y público",
+  "tipo": "requisito de seguridad",
+  "intents":["extintores_obligatorios"],
+  "descripcion": "Los vehículos de uso comercial y de transporte público deben portar extintores de fuego en condiciones óptimas.",
+  "vehiculos_aplicables": [
+    "vehículos de uso comercial",
+    "vehículos de transporte público"
+  ],
+  "requisito": {
+    "descripcion": "Portar extintores de fuego",
+    "condiciones": "El extintor debe estar en buenas condiciones de funcionamiento"
+  },
+  "explicacion_clara": "Todos los vehículos que se usan para actividades comerciales o como transporte público deben tener un extintor en buen estado, para poder atender rápidamente cualquier conato de incendio y proteger la seguridad de los pasajeros y del vehículo.",
+  "aplicable_en_infracciones": true
+}
+]

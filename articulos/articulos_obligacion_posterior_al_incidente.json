@@ -1,0 +1,20 @@
+[
+{
+  "articulo": 93,
+  "titulo": "Obligación de retirar vehículos y residuos tras un hecho de tránsito",
+  "tipo": "obligación posterior al incidente",
+  "intents":["retiro_vehiculos_accidente"],
+  "descripcion": "Establece la obligación de los conductores de retirar sus vehículos y residuos de la vía pública una vez que la autoridad lo indique, para evitar nuevos incidentes.",
+  "sujeto": "Conductores de vehículos implicados en un hecho de tránsito",
+  "obligaciones": [
+    "Retirar el vehículo de la vía pública una vez que la autoridad competente lo indique.",
+    "Retirar los residuos o cualquier otro material que se haya esparcido en la vía como resultado del accidente."
+  ],
+  "sanciones": [
+    "Si no se cumple con la disposición, la autoridad procederá a retirar el vehículo con grúa.",
+    "El costo del arrastre con grúa será cubierto por el propietario del vehículo."
+  ],
+  "explicacion_clara": "Después de un accidente, cuando la autoridad lo indique, los conductores deben retirar su vehículo y limpiar cualquier residuo. Si no lo hacen, la grúa lo retirará y el dueño deberá pagar el servicio.",
+  "aplicable_en_infracciones": true
+}
+]

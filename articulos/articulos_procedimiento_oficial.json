@@ -1,0 +1,42 @@
+[
+{
+  "articulo": 89,
+  "titulo": "Actuación de agentes de tránsito y seguridad pública ante hechos de tránsito",
+  "tipo": "procedimiento oficial",
+  "intents":["procedimiento_agentes_accidente"],
+  "descripcion": "Establece los pasos que deben seguir los agentes de tránsito y elementos de seguridad pública ante distintos tipos de hechos de tránsito.",
+  "sujeto": "Agentes de tránsito y elementos de seguridad pública",
+  "procedimientos": {
+    "con_lesiones_muerte_o_danos_publicos": [
+      "Solicitar servicios de emergencia o al Ministerio Público según el caso.",
+      "Establecer un perímetro de seguridad y desviar la circulación.",
+      "Resguardar a los lesionados y solo moverlos si hay peligro inminente.",
+      "Requerir licencia, tarjeta de circulación y póliza de seguro a los involucrados.",
+      "Asegurar a los conductores si hay lesionados y remitirlos ante autoridad competente.",
+      "Asistir al Ministerio Público si es requerido.",
+      "Registrar datos del accidente, servicios de emergencia, vehículos, personas lesionadas y comunicarlo a la base de radio."
+    ],
+    "solo_danos_a_bienes_publicos": [
+      "Asegurar a los conductores y remitirlos con sus vehículos ante la autoridad competente."
+    ],
+    "solo_danos_a_bienes_privados": [
+      "Solicitar licencia, tarjeta de circulación y póliza de seguro.",
+      "Marcar posición de los vehículos y tomar evidencia visual.",
+      "Indicar a los involucrados mover los vehículos si es posible, o solicitar grúa.",
+      "Indicar contacto con aseguradoras.",
+      "Llenar el formato de hechos de tránsito con detalles del accidente.",
+      "Esperar acuerdo entre aseguradoras para determinar sanción.",
+      "Mediante si no hay acuerdo inmediato entre aseguradoras.",
+      "Remitir a los involucrados al Juez Cívico o Ministerio Público si no hay convenio."
+    ]
+  },
+  "principios": [
+    "Respeto a los derechos humanos",
+    "Igualdad y no discriminación",
+    "Transparencia",
+    "Legalidad"
+  ],
+  "explicacion_clara": "Los agentes de tránsito deben seguir distintos procedimientos dependiendo de si el accidente causó lesiones, muerte o solo daños materiales. Si hay heridos o fallecidos, deben llamar a emergencias, proteger el área y custodiar a los responsables. Si solo hay daños, recaban pruebas, mueven los vehículos y median para lograr acuerdos. Si no se llega a un arreglo, remiten a los involucrados con las autoridades correspondientes.",
+  "aplicable_en_infracciones": true
+}
+]

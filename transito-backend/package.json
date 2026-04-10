@@ -1,0 +1,17 @@
+{
+  "name": "transito-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "articulos.js",
+  "scripts": {
+    "dev": "node articulos.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1"
+  }
+}

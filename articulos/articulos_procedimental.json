@@ -1,0 +1,304 @@
+[
+{
+  "articulo": 97,
+  "titulo": "Funciones preventivas de las autoridades de tránsito",
+  "tipo": "procedimental",
+  "intents":["funciones_autoridades_transito"],
+  "descripcion": "Establece la obligación de las autoridades de tránsito de prevenir accidentes y daños, dando prioridad a la seguridad de los peatones y actuando con cortesía y eficacia ante infracciones.",
+  "sujeto": "Autoridades de Tránsito / Agentes de Tránsito",
+  "obligaciones": [
+    "Prevenir hechos de tránsito utilizando todos los medios disponibles.",
+    "Evitar que se causen o incrementen daños a personas o propiedades.",
+    "Cuidar de la seguridad de los peatones.",
+    "Asegurar que los peatones cumplan sus obligaciones según el Reglamento.",
+    "Advertir cortésmente a los conductores que estén por cometer una infracción.",
+    "Hacer cumplir al infractor la obligación correspondiente de forma eficaz pero atenta.",
+    "Elaborar el acta o boleta de infracción correspondiente e informar al infractor sobre la falta cometida."
+  ],
+  "explicacion_clara": "Los agentes de tránsito deben usar todos los recursos para prevenir accidentes, proteger a los peatones y actuar con respeto al advertir o sancionar a los infractores, siempre explicándoles la falta cometida.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 98,
+  "titulo": "Procedimiento de los agentes de tránsito ante una infracción",
+  "tipo": "procedimental",
+  "intents":["procedimiento_infraccion_agentes"],
+  "descripcion": "Establece el procedimiento que deben seguir los agentes de tránsito cuando un conductor comete una infracción al Reglamento.",
+  "sujeto": "Agentes de Tránsito",
+  "obligaciones": [
+    "Indicar al conductor que debe detener la marcha y estacionar el vehículo sin obstruir la circulación.",
+    "Identificarse con nombre y número de control administrativo.",
+    "Señalar al conductor, con cortesía y respeto, la infracción cometida, la disposición reglamentaria aplicable y la sanción económica correspondiente.",
+    "Solicitar al conductor su licencia de manejo y la tarjeta de circulación para su retención y asegurar el pago de la infracción.",
+    "Levantar el acta de infracción y entregar el original al infractor después de revisar los documentos."
+  ],
+  "explicacion_clara": "Cuando un conductor comete una infracción, el agente de tránsito debe actuar con respeto, explicar la falta, retener los documentos necesarios y entregar el acta correspondiente.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 103,
+  "titulo": "Contenido de las actas de infracción",
+  "tipo": "procedimental",
+  "intents":["contenido_acta_infraccion"],
+  "descripcion": "Establece los elementos que deben contener las actas de infracción emitidas por la autoridad de tránsito.",
+  "formato": "Impreso y foliado con identidad oficial designada por la Administración Municipal",
+  "contenido_obligatorio": {
+    "I": "Datos del infractor",
+    "II": "Número y especificación de la licencia o permiso del conductor y los datos de la placa del vehículo",
+    "III": "Características del vehículo",
+    "IV": "Actos y hechos constitutivos de la infracción, con lugar, fecha y hora",
+    "V": "Infracción cometida y disposición legal que la fundamenta",
+    "VI": "Nombre y firma del agente que levanta el acta",
+    "VII": "Firma del infractor o mención de que se negó a firmar (la falta de firma no invalida la infracción)",
+    "VIII": "Referencia del documento recogido (licencia, placa, tarjeta o vehículo)",
+    "IX": "En caso de remisión al corralón, número de folio del inventario del vehículo"
+  },
+  "explicacion_clara": "Las boletas de infracción deben contener información completa sobre el conductor, el vehículo, la falta cometida y los datos del agente. Si el infractor no firma, la infracción sigue siendo válida. Si el vehículo se lleva al depósito, se debe anotar el folio correspondiente.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 105,
+  "titulo": "Procedimiento en hechos de tránsito cometidos por menores de edad",
+  "tipo": "procedimental",
+  "intents":["procedimiento_menores_infraccion"],
+  "descripcion": "Establece el procedimiento que debe seguir el Ministerio Público cuando un menor de edad incurre en una infracción, involucrando a los padres o tutores y aplicando la Ley de Justicia para Adolescentes del Estado de Morelos.",
+  "contenido": {
+    "intervencion_ministerio_publico": "El Ministerio Público debe llamar a los padres o tutores del menor.",
+    "remision_legal": "La remisión del menor se efectuará conforme a la Ley de Justicia para Adolescentes del Estado de Morelos, si así corresponde.",
+    "responsabilidad": "Deben tomarse las medidas necesarias para que se cubra la responsabilidad civil o penal en que el menor haya incurrido."
+  },
+  "explicacion_clara": "Si un menor comete una infracción, el Ministerio Público debe contactar a sus padres o tutores y, en caso necesario, aplicar la Ley de Justicia para Adolescentes. También deben asegurarse de que se cubran los daños ocasionados.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 106,
+  "titulo": "Retiro de circulación y remisión al depósito de vehículos",
+  "tipo": "procedimental",
+  "intents":["retiro_remision_vehiculo"],
+  "descripcion": "Establece los casos en los que las autoridades de tránsito deben retirar un vehículo de la vía pública y remitirlo al depósito oficial.",
+  "casos_retiro_vehiculo": [
+    {
+      "id": "I",
+      "motivo": "Conductor en estado de ebriedad o bajo el efecto de drogas, estupefacientes, psicotrópicos o sustancias tóxicas, incluso si fueron prescritas médicamente."
+    },
+    {
+      "id": "II",
+      "motivo": "El conductor no presenta licencia o permiso, y no va acompañado de alguien con licencia que pueda conducir."
+    },
+    {
+      "id": "III",
+      "motivo": "Las placas no coinciden con la calcomanía o tarjeta de circulación. Nota: si falta una placa, la tarjeta o calcomanía, no se remite, solo se infracciona."
+    },
+    {
+      "id": "IV",
+      "motivo": "El vehículo carece de ambas placas o no fueron canjeadas en tiempo legal."
+    },
+    {
+      "id": "V",
+      "motivo": "Vehículos que deben portar una sola placa y no la tienen."
+    },
+    {
+      "id": "VI",
+      "motivo": "Han pasado más de 10 días hábiles desde el vencimiento del permiso para circular sin placas."
+    },
+    {
+      "id": "VII",
+      "motivo": "Placas modificadas en sus características oficiales."
+    }
+  ],
+  "proceso_devolucion": {
+    "condiciones": [
+      "Finalización de los trámites relacionados con la infracción.",
+      "Pago de multas impuestas.",
+      "Pago de gastos de traslado."
+    ],
+    "entrega": "El vehículo será entregado de inmediato a la persona legitimada una vez cumplidas las condiciones anteriores."
+  },
+  "aplicable_en_infracciones": true,
+  "explicacion_clara": "El vehículo será remitido al corralón si el conductor está bajo sustancias, no tiene licencia, las placas no coinciden o están alteradas, o ha vencido el permiso para circular sin placas. Para recuperarlo, se deben pagar las multas y el traslado."
+},
+{
+  "articulo": 108,
+  "titulo": "Acceso a multas cívicas en lugar de sanciones económicas o arresto",
+  "tipo": "procedimental",
+  "intents":["multas_civicas_alternativa"],
+  "descripcion": "Permite al infractor solicitar al Juez Cívico el acceso a sanciones cívicas en lugar de multas económicas o arresto, siempre que acredite su identidad y domicilio en el Estado y no sea reincidente.",
+  "condiciones": {
+    "identidad_comprobada": true,
+    "domicilio_en_estado": true,
+    "no_reincidente": true
+  },
+  "alternativa_sancion": "Multa cívica en lugar de multa económica o arresto",
+  "autoridad_que_resuelve": "Juez Cívico",
+  "aplicable_en_infracciones": true,
+  "explicacion_clara": "Si el infractor no es reincidente y demuestra quién es y que vive en el Estado, puede pedir al Juez Cívico que le imponga trabajo comunitario o cursos en lugar de una multa o arresto."
+},
+{
+  "articulo": 111,
+  "titulo": "Supervisión del cumplimiento de sanciones cívicas",
+  "tipo": "procedimental",
+  "intents":["supervision_sanciones_civicas"],
+  "descripcion": "Establece quiénes deben supervisar el cumplimiento de las sanciones impuestas por concepto de multas cívicas.",
+  "supervision_sanciones": {
+    "encargados": [
+      "Personal del Juez Cívico",
+      "Unidades Administrativas del Ayuntamiento relacionadas con el programa",
+      "Autoridades auxiliares",
+      "Testigos ciudadanos (en caso de que lo soliciten)"
+    ]
+  },
+  "aplicable_en_infracciones": true,
+  "explicacion_clara": "Las sanciones cívicas como el trabajo comunitario deben ser supervisadas por el personal del Juez Cívico, el Ayuntamiento y, si se pide, por testigos ciudadanos."
+},
+{
+  "articulo": 112,
+  "titulo": "Programas públicos para cumplimiento de multas cívicas",
+  "tipo": "procedimental",
+  "intents":["programas_multas_civicas"],
+  "descripcion": "Establece que el Ayuntamiento implementará programas públicos para que las personas infractoras cumplan con las sanciones cívicas impuestas.",
+  "responsables_programas": {
+    "implementacion": "Ayuntamiento de Jojutla",
+    "operadores": [
+      "Unidades Administrativas",
+      "Autoridades auxiliares"
+    ],
+    "responsables_de_ejecucion": "Titulares de las áreas de la Administración Pública Municipal"
+  },
+  "objetivo_programas": "Brindar los elementos y condiciones necesarias para que las personas infractoras cumplan con las multas cívicas a través de actividades alineadas a los fines del programa.",
+  "aplicable_en_infracciones": true,
+  "explicacion_clara": "El Ayuntamiento debe crear programas para que los infractores puedan cumplir con sus multas cívicas, como trabajos comunitarios, facilitando todo lo necesario para ello."
+},
+{
+  "articulo": 113,
+  "titulo": "Incumplimiento de multas cívicas",
+  "tipo": "procedimental",
+  "intents":["incumplimiento_multas_civicas"],
+  "descripcion": "Establece el procedimiento a seguir cuando un infractor no cumple con las actividades impuestas como multas cívicas.",
+  "procedimiento_incumplimiento": {
+    "condicion": "El infractor no realiza las actividades asignadas por concepto de multa cívica.",
+    "accion_del_juez": "El Juez Cívico emitirá una orden de presentación.",
+    "consecuencia": "La sanción económica previamente impuesta será ejecutada de inmediato."
+  },
+  "aplicable_en_infracciones": true,
+  "explicacion_clara": "Si no cumples con los trabajos comunitarios o cursos impuestos como multa cívica, el Juez ordenará que pagues la multa económica de inmediato."
+},
+{
+  "articulo": 114,
+  "titulo": "Impugnación de boletas de infracción",
+  "tipo": "procedimental",
+  "intents":["impugnacion_boleta_infraccion"],
+  "descripcion": "Establece el derecho de los particulares a impugnar las boletas de infracción emitidas por las autoridades de tránsito.",
+  "procedimiento_impugnacion": {
+    "recurso": "Recurso de Inconformidad",
+    "fundamento_legal": "Ley de Procedimiento Administrativo del Estado de Morelos",
+    "autoridad_receptora": "Autoridades que hayan emitido el acto"
+  },
+  "aplicable_en_infracciones": true,
+  "explicacion_clara": "Si recibes una multa de tránsito y no estás de acuerdo, puedes impugnarla mediante un Recurso de Inconformidad ante la autoridad que la emitió, conforme a la ley estatal."
+}, 
+{
+  "articulo": 115,
+  "titulo": "Plazo para interponer Recurso de Inconformidad",
+  "tipo": "procedimental",
+  "intents":["plazo_recurso_inconformidad"],
+  "descripcion": "Establece el plazo y procedimiento para que los particulares interpongan el Recurso de Inconformidad ante la autoridad vial.",
+  "procedimiento_impugnacion": {
+    "recurso": "Recurso de Inconformidad",
+    "autoridad_receptora": "Autoridad vial",
+    "plazo": "Diez días hábiles contados a partir del día siguiente hábil a la emisión de la boleta de infracción",
+    "fundamento_legal": "Ley de Procedimiento Administrativo del Estado de Morelos"
+  },
+  "aplicable_en_infracciones": true,
+  "explicacion_clara": "Después de recibir una multa de tránsito, tienes 10 días hábiles para presentar un Recurso de Inconformidad ante la autoridad vial que emitió la infracción."
+},
+{
+  "articulo": 116,
+  "titulo": "Contenido del Recurso de Inconformidad",
+  "tipo": "procedimental",
+  "intents":["contenido_recurso_inconformidad"],
+  "descripcion": "Detalla los requisitos que debe contener un Recurso de Inconformidad interpuesto por un particular ante una infracción de tránsito.",
+  "contenido_requerido": [
+    "Autoridad a quien se dirige",
+    "Mención de que se promueve recurso de inconformidad",
+    "Nombre del promovente o del apoderado o representante legal y carácter con que se ostenta",
+    "Domicilio para oír y recibir notificaciones dentro del municipio de que se trate y el nombre de las personas autorizadas para tal efecto",
+    "Nombre y domicilio del tercero afectado, o la expresión de que no existe o se ignora su existencia",
+    "Acto o actos administrativos que se impugnan",
+    "Hechos en que el recurrente funde su medio legal de impugnación de manera clara y concisa",
+    "Agravios",
+    "Pretensiones",
+    "Fundamentos legales que motivan el recurso",
+    "Fecha del escrito y firma del inconforme"
+  ],
+  "aplicable_en_infracciones": true,
+  "explicacion_clara": "Para impugnar una infracción de tránsito, el ciudadano debe presentar un escrito formal con los datos personales, los actos que impugna, los agravios, fundamentos legales, y firmarlo."
+},
+{
+  "articulo": 117,
+  "titulo": "Documentos anexos al Recurso de Inconformidad",
+  "tipo": "procedimental",
+  "intents":["documentos_recurso_inconformidad"],
+  "descripcion": "Especifica los documentos que deben acompañar al escrito inicial al interponer un Recurso de Inconformidad en materia de tránsito.",
+  "documentos_requeridos": [
+    "Documentos que acrediten la personalidad jurídica del recurrente, y en su caso, cuando actúe en representación de otro o de una persona moral.",
+    "Documentos que acrediten el legítimo interés del recurrente.",
+    "Constancia de notificación que da origen al recurso de inconformidad.",
+    "Pruebas respectivas, junto con los medios necesarios para su desahogo.",
+    "Dos juegos de copias simples del escrito inicial y documentos anexos."
+  ],
+  "aplicable_en_infracciones": true,
+  "explicacion_clara": "Cuando se presenta un Recurso de Inconformidad por una infracción de tránsito, deben entregarse documentos que acrediten la identidad del recurrente, su interés en el asunto, la notificación recibida, pruebas y copias del escrito."
+},
+{
+  "articulo": 118,
+  "titulo": "Valor del acuse de recibo durante el Recurso de Inconformidad",
+  "tipo": "procedimental",
+  "intents":["acuse_recurso_inconformidad"],
+  "descripcion": "Establece que el acuse de recibo entregado al ciudadano al presentar un Recurso de Inconformidad ampara temporalmente la retención del objeto hasta que se resuelva el recurso, sin eximirlo de responsabilidad por otras infracciones.",
+  "efectos_del_acuse": {
+    "amparo": "El acuse de recibo protege al ciudadano por la falta del objeto retenido (licencia, tarjeta, vehículo, etc.) hasta la resolución definitiva.",
+    "limitaciones": "No exime al ciudadano de responsabilidad si incurre en otra infracción durante ese tiempo."
+  },
+  "aplicable_en_infracciones": true,
+  "explicacion_clara": "Cuando un ciudadano presenta un recurso por una infracción de tránsito, el acuse de recibo que se le entrega le protege por la falta del documento o vehículo retenido, pero no lo protege si comete otra falta mientras espera la resolución."
+},
+{
+  "articulo": 119,
+  "titulo": "Devolución de documentos u objetos retenidos por resolución favorable",
+  "tipo": "procedimental",
+  "intents":["devolucion_documentos_recurso"],
+  "descripcion": "Establece las condiciones para la devolución de documentos o vehículos retenidos, en caso de que el Recurso de Inconformidad resulte favorable al ciudadano.",
+  "condiciones_devolucion": {
+    "sin_costo": [
+      "Licencia de conducir",
+      "Tarjeta de circulación",
+      "Placa vehicular"
+    ],
+    "vehiculo": {
+      "devolucion": "Con o sin pago del depósito vehicular, grúa, inventario y piso",
+      "criterio": "Dependerá del contenido de la resolución emitida por la autoridad competente"
+    }
+  },
+  "aplicable_en_infracciones": true,
+  "explicacion_clara": "Si ganas el recurso contra una infracción, te devuelven sin costo tus documentos retenidos (como licencia o placas). Si fue tu vehículo el que fue detenido, la devolución puede incluir o no el pago del depósito o grúa, según lo que decida la autoridad."
+},
+{
+  "articulo": 120,
+  "titulo": "Canalización de denuncias a Asuntos Internos",
+  "tipo": "procedimental",
+  "descripcion": "Establece que las denuncias presentadas deben enviarse de inmediato a la Unidad de Asuntos Internos para su investigación y, si corresponde, iniciar el procedimiento administrativo respectivo, conforme a la Ley del Sistema de Seguridad Pública del Estado de Morelos.",
+  "procedimiento": {
+    "canalizacion": "Inmediata a la Unidad de Asuntos Internos",
+    "acciones": [
+      "Inicio de investigación",
+      "Sustanciación del procedimiento administrativo"
+    ],
+    "referencia_legal": [
+      "Artículo 163 de la Ley del Sistema de Seguridad Pública del Estado de Morelos",
+      "Artículo 164 de la Ley del Sistema de Seguridad Pública del Estado de Morelos"
+    ]
+  },
+  "aplicable_en_infracciones": false,
+  "explicacion_clara": "Cuando alguien presenta una denuncia relacionada con autoridades de tránsito, debe enviarse de inmediato a Asuntos Internos para su investigación. Este artículo no aplica directamente a infracciones de tránsito, sino al proceso administrativo interno."
+}
+]

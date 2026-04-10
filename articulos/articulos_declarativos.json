@@ -1,0 +1,56 @@
+[
+{
+  "articulo": 1,
+  "titulo": "Ámbito de aplicación y objeto del reglamento",
+  "tipo": "declarativo",
+  "descripcion": "Este artículo establece dónde y a quiénes aplica el reglamento. Señala que es obligatorio para todas las personas que transiten por el Municipio de Jojutla, Morelos, incluyendo peatones, ciclistas, conductores y propietarios de vehículos, ya sean nacionales o extranjeros.",
+  "estructura": "parrafo",
+  "contenido": [
+    "El presente Reglamento es de observancia general en el Municipio de Jojutla, Morelos.",
+    "Sus disposiciones son de orden público e interés general.",
+    "Tiene por objeto establecer las normas y directrices de circulación y convivencia de peatones y vehículos en las vías públicas del Municipio.",
+    "Las disposiciones de este Reglamento son aplicables a peatones, ciclistas, conductores, pasajeros y propietarios de cualquier tipo de vehículo matriculado en el país o el extranjero y que circule en el territorio municipal."
+  ],
+  "explicacion_clara": "Este artículo dice que el reglamento aplica para todos en Jojutla: peatones, ciclistas y conductores, sin importar si su vehículo es del país o del extranjero. Su propósito es garantizar una buena convivencia y seguridad en las calles.",
+  "aplicable_en_infracciones": false
+},
+{
+  "articulo": 4,
+  "titulo": "Principios rectores de la aplicación del reglamento",
+  "tipo": "declarativo",
+  "descripcion": "Este artículo define los principios básicos sobre los que se rige la aplicación del reglamento de tránsito. Se promueve la seguridad vial, el respeto entre usuarios, la prioridad a peatones, y el uso racional del automóvil, estableciendo una jerarquía de usuarios y responsabilidades para todos los que circulan en la vía pública.",
+  "estructura": "principios",
+  "contenido": [
+    "La circulación segura es un derecho; las autoridades deben proteger la vida y la integridad de todos, especialmente de los usuarios vulnerables.",
+    "La circulación en vía pública debe hacerse con cortesía y respeto hacia los demás usuarios y autoridades viales.",
+    "Se prohíbe colocar objetos que obstaculicen el tránsito de vehículos o peatones.",
+    "Se establece una jerarquía en el uso del espacio vial:",
+    [
+      "a) Peatones, especialmente personas con discapacidad o movilidad limitada, y vehículos de emergencia con señales activas.",
+      "b) Ciclistas en cualquiera de sus modalidades.",
+      "c) Usuarios del transporte público.",
+      "d) Prestadores del transporte público.",
+      "e) Transporte de carga y distribución de mercancías.",
+      "f) Vehículos particulares motorizados."
+    ],
+    "Todos los usuarios de la vía, especialmente conductores, deben ser responsables del riesgo que representan y conducir con precaución.",
+    "El automóvil particular debe usarse de manera racional para proteger la salud y el medio ambiente; se promoverán campañas y programas educativos.",
+    "La Dirección de Tránsito debe realizar campañas permanentes para fomentar la cultura vial, evitar el consumo de sustancias al conducir y garantizar la seguridad de todos."
+  ],
+  "explicacion_clara": "Este artículo dice que todos tienen derecho a circular con seguridad, y que las autoridades deben proteger especialmente a los más vulnerables. Promueve el respeto entre conductores, ciclistas y peatones, y establece que los peatones tienen prioridad. Además, indica que debe haber campañas para fomentar la cultura vial y evitar conducir bajo efectos de alcohol o drogas.",
+  "aplicable_en_infracciones": false
+},
+{
+  "articulo": 10,
+  "titulo": "Normas que rigen la circulación de vehículos",
+  "tipo": "declarativo",
+  "intents":["normas_circulacion"],
+  "descripcion": "Este artículo indica que la circulación de vehículos en Jojutla se regirá primero por este reglamento municipal y, en caso de vacíos o ausencia de disposiciones, se aplicará el Reglamento Estatal como complemento.",
+  "estructura": "parrafo",
+  "contenido": [
+    "La circulación de vehículos en las vías públicas del territorio Municipal se sujetará a las disposiciones contenidas en este Reglamento y supletoriamente en el Reglamento Estatal."
+  ],
+  "explicacion_clara": "Este artículo dice que para circular en Jojutla se debe cumplir primero con lo que dice este reglamento local. Si hay algo que no esté aquí, entonces se aplican las reglas del Reglamento Estatal de Tránsito.",
+  "aplicable_en_infracciones": true
+}
+]

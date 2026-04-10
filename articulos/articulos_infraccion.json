@@ -1,0 +1,40 @@
+[
+ {
+  "articulo": 34,
+  "titulo": "Prohibiciones para conductores",
+  "tipo": "infraccion",
+  "intents":["prohibiciones_conductores"],
+  "descripcion": "Este artículo detalla conductas prohibidas para conductores de todo tipo de vehículos, tanto motorizados como no motorizados.",
+  "estructura": "fracciones",
+  "contenido": {
+    "I": "Está prohibido detenerse invadiendo cruces peatonales o dentro de intersecciones.",
+    "II": "No se debe ocupar áreas de espera para bicicletas o motocicletas, salvo si es usuario correspondiente.",
+    "III": {
+      "a": "Está prohibido circular sobre aceras o vías peatonales.",
+      "b": "Está prohibido circular sobre vías ciclistas, salvo que se trate de bicicletas."
+    },
+    "IV": "No detenerse en sitios con señalamiento restrictivo o guarnición roja, excepto por semáforo en rojo o agente.",
+    "V": "No se debe entorpecer la marcha de columnas militares, escolares o desfiles.",
+    "VI": "Está prohibido rebasar cuando otros vehículos se detienen para ceder paso a peatones.",
+    "VII": "No realizar giros distintos a los señalados por los carriles especiales.",
+    "VIII": "Está prohibido dar vuelta en U cerca de curvas o donde esté expresamente prohibido.",
+    "IX": "No circular por el acotamiento salvo en caso de descompostura.",
+    "X": {
+      "a": "No rebasar si hay peatones o vehículos cruzando.",
+      "b": "No rebasar si puede hacerse por el mismo carril.",
+      "c": "No rebasar si no hay visibilidad o espacio suficiente.",
+      "d": "No rebasar cerca de cimas o curvas.",
+      "e": "No rebasar a 30 metros o menos de una intersección.",
+      "f": "No adelantar filas de vehículos.",
+      "g": "No rebasar si hay línea continua.",
+      "h": "No rebasar si otro vehículo ya inició maniobra de rebase sin condiciones seguras."
+    },
+    "XI": "No circular en reversa más de 30 metros salvo que no se pueda avanzar.",
+    "XII": "Guardar al menos 50 metros de distancia de vehículos de emergencia en operación.",
+    "XIII": "No detenerse cerca de vehículos de emergencia de forma que entorpezca o ponga en riesgo su operación.",
+    "XIV": "Está prohibido utilizar torretas exclusivas de vehículos oficiales."
+  },
+  "explicacion_clara": "Este artículo enumera acciones que están prohibidas al conducir, como invadir cruces peatonales, bloquear intersecciones, usar torretas oficiales, seguir de cerca a vehículos de emergencia, rebasar en condiciones peligrosas o manejar en reversa sin precaución.",
+  "aplicable_en_infracciones": true
+ }
+]

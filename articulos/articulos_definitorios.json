@@ -1,0 +1,238 @@
+[
+  {
+  "articulo": 3,
+  "titulo": "Definiciones para la interpretación y aplicación del reglamento",
+  "tipo": "definitorio",
+  "descripcion": "Este artículo contiene un glosario de términos esenciales que permiten interpretar correctamente el resto del reglamento. Define conceptos clave como agente, conductor, intersección, infracción, entre otros, asegurando claridad y uniformidad en su aplicación.",
+  "estructura": "glosario",
+  "definiciones": [
+    {
+      "termino": "AGENTE",
+      "definicion": "Elementos de la policía de tránsito y vialidad encargados del municipio de Jojutla, Morelos."
+    },
+    {
+      "termino": "AMONESTACIÓN VERBAL",
+      "definicion": "Acto por el cual el agente advierte a peatones, conductores y pasajeros sobre un incumplimiento, con el propósito de orientarlos y prevenir conductas similares."
+    },
+    {
+      "termino": "ARROYO VEHICULAR",
+      "definicion": "Espacio destinado exclusivamente a la circulación de vehículos."
+    },
+    {
+      "termino": "AYUNTAMIENTO",
+      "definicion": "El Ayuntamiento de Jojutla, Morelos."
+    },
+    {
+      "termino": "AUTORIDAD DE TRÁNSITO",
+      "definicion": "Instituciones facultadas en materia de tránsito, vialidad y movilidad municipal."
+    },
+    {
+      "termino": "AUXILIAR VIAL",
+      "definicion": "Persona habilitada por la Autoridad de Tránsito Municipal para auxiliar en el control del tránsito, sin carácter de servidor público, pero facultada para iniciar reportes."
+    },
+    {
+      "termino": "BICICLETA",
+      "definicion": "Vehículo no motorizado de propulsión humana a través de pedales."
+    },
+    {
+      "termino": "CARRIL",
+      "definicion": "Espacio sobre la superficie de rodadura delimitado para la circulación de vehículos en una fila."
+    },
+    {
+      "termino": "INTERSECCIÓN",
+      "definicion": "Espacio donde convergen dos o más vías y se realizan movimientos direccionales del tránsito."
+    },
+    {
+      "termino": "CONDUCTOR",
+      "definicion": "Persona que conduce un vehículo en cualquier modalidad."
+    },
+    {
+      "termino": "CICLISTA",
+      "definicion": "Persona que conduce una bicicleta o vehículo de tracción humana asistido eléctricamente (hasta 25 km/h). Menores de 12 años se consideran peatones."
+    },
+    {
+      "termino": "DEPÓSITO VEHICULAR",
+      "definicion": "Espacio autorizado para resguardar y custodiar vehículos detenidos o asegurados."
+    },
+    {
+      "termino": "DISPOSITIVOS PARA EL CONTROL DEL TRÁNSITO",
+      "definicion": "Elementos que ordenan, orientan y garantizan seguridad en el tránsito peatonal y vehicular."
+    },
+    {
+      "termino": "DIRECCIÓN DE TRÁNSITO",
+      "definicion": "Dirección de Tránsito y Vialidad Municipal de Jojutla, Morelos."
+    },
+    {
+      "termino": "HECHO DE TRÁNSITO",
+      "definicion": "Evento que involucra al menos un vehículo y puede causar lesiones, muertes o daños materiales."
+    },
+    {
+      "termino": "FORMATO DE HECHO DE TRÁNSITO",
+      "definicion": "Cédula que documenta detalles de un incidente vial para evaluar responsabilidades."
+    },
+    {
+      "termino": "INFRACCIÓN",
+      "definicion": "Conducta que transgrede una disposición del reglamento y que conlleva una sanción."
+    },
+    {
+      "termino": "MOVILIDAD",
+      "definicion": "Derecho al desplazamiento efectivo de personas y bienes mediante diferentes medios."
+    },
+    {
+      "termino": "MUNICIPIO",
+      "definicion": "Demarcación territorial del Municipio de Jojutla, Morelos."
+    },
+    {
+      "termino": "MOTOCICLETA",
+      "definicion": "Vehículo motorizado de dos o más ruedas con manubrio, conforme a la normativa vigente."
+    },
+    {
+      "termino": "NORMA TÉCNICA DE DISEÑO URBANO",
+      "definicion": "Norma municipal que regula el diseño de espacios públicos con base en accesibilidad y sostenibilidad."
+    },
+    {
+      "termino": "MOTOCICLISTA",
+      "definicion": "Persona que conduce una motocicleta."
+    },
+    {
+      "termino": "PEATÓN",
+      "definicion": "Persona que transita a pie o con apoyo de dispositivos recreativos o asistencias técnicas."
+    },
+    {
+      "termino": "PERSONA CON DISCAPACIDAD",
+      "definicion": "Persona con limitaciones físicas, mentales, sensoriales o intelectuales a largo plazo."
+    },
+    {
+      "termino": "PEATONES VULNERABLES",
+      "definicion": "Niñas, niños, personas con discapacidad, movilidad limitada y personas mayores."
+    },
+    {
+      "termino": "PERSONAS CON MOVILIDAD LIMITADA",
+      "definicion": "Personas con dificultad de desplazamiento por razones de salud, edad o condición temporal."
+    },
+    {
+      "termino": "PRIMER CUADRO",
+      "definicion": "Zona central prioritaria del municipio determinada por el Ayuntamiento."
+    },
+    {
+      "termino": "REGLAMENTO ESTATAL",
+      "definicion": "Reglamento de Tránsito del Estado de Morelos."
+    },
+    {
+      "termino": "REGLAMENTO",
+      "definicion": "Reglamento de Movilidad y Tránsito de Jojutla."
+    },
+    {
+      "termino": "SEGURIDAD VIAL",
+      "definicion": "Conjunto de medidas para preservar la vida e integridad en el tránsito."
+    },
+    {
+      "termino": "SEÑALIZACIÓN VIAL",
+      "definicion": "Indicaciones visuales que guían el comportamiento vial de peatones y conductores."
+    },
+    {
+      "termino": "SEÑALIZACIÓN VIAL RESTRICTIVA",
+      "definicion": "Señalización con carácter prohibitivo explícito."
+    },
+    {
+      "termino": "TRÁNSITO",
+      "definicion": "Acción de desplazarse por vía pública."
+    },
+    {
+      "termino": "UMA",
+      "definicion": "Unidad de Medida y Actualización."
+    },
+    {
+      "termino": "VEHÍCULO",
+      "definicion": "Aparato terrestre impulsado por fuerza humana o motriz, destinado al transporte."
+    },
+    {
+      "termino": "VEHÍCULO DE EMERGENCIA",
+      "definicion": "Vehículo destinado a servicios médicos, rescate, bomberos o policía."
+    },
+    {
+      "termino": "VEHÍCULO NO MOTORIZADO",
+      "definicion": "Vehículos de tracción humana como bicicletas (máximo 25 km/h con asistencia)."
+    },
+    {
+      "termino": "VEHÍCULO RECREATIVO",
+      "definicion": "Vehículos utilizados con fines lúdicos, como patinetas o bicicletas para niños."
+    },
+    {
+      "termino": "VÍA PÚBLICA",
+      "definicion": "Espacio terrestre de uso común para el tránsito de peatones, ciclistas y vehículos."
+    },
+    {
+      "termino": "VIALIDAD",
+      "definicion": "Conjunto de vías públicas del municipio que facilitan el tránsito."
+    },
+    {
+      "termino": "VÍA PEATONAL",
+      "definicion": "Espacio destinado al tránsito exclusivo o prioritario de peatones."
+    },
+    {
+      "termino": "VÍA PRIMARIA",
+      "definicion": "Vías para flujo vehicular continuo o controlado, pueden incluir carriles para bici o transporte público."
+    },
+    {
+      "termino": "VÍA SECUNDARIA",
+      "definicion": "Vías de acceso a predios y conexión con vías primarias, de tránsito no continuo."
+    }
+  ],
+  "aplicable_en_infracciones": false
+},
+{
+  "articulo": 81,
+  "titulo": "Definiciones de elementos de infraestructura vial",
+  "tipo": "definiciones",
+  "descripcion": "Este artículo define diversos elementos físicos y de infraestructura que componen la vialidad urbana y rural en el municipio.",
+  "definiciones": [
+    { "termino": "Acera", "descripcion": "Parte de una vía destinada principalmente para circulación de peatones, separada de la circulación de vehículos." },
+    { "termino": "Andador", "descripcion": "Vía de uso exclusivo para peatones." },
+    { "termino": "Arroyo vial", "descripcion": "Superficie de rodamiento donde circulan vehículos." },
+    { "termino": "Autopista", "descripcion": "Vía especialmente acondicionada para la circulación vehicular a grandes velocidades." },
+    { "termino": "Banqueta", "descripcion": "Porción de vía, generalmente a un nivel superior al arroyo, destinada al tránsito peatonal." },
+    { "termino": "Base de servicio", "descripcion": "Espacios autorizados para ascenso, descenso y transferencia en el transporte público de pasajeros o carga." },
+    { "termino": "Calle", "descripcion": "Vía dentro de zonas urbanizadas para el tránsito de personas y vehículos." },
+    { "termino": "Carretera", "descripcion": "Vía pavimentada y amplia para tránsito vehicular, de alcance nacional, estatal o municipal." },
+    { "termino": "Cuneta", "descripcion": "Parte lateral de un camino o carretera para drenar el agua." },
+    { "termino": "Estacionamiento público", "descripcion": "Espacio para detener o alojar vehículos por tiempo determinado." },
+    { "termino": "Glorieta", "descripcion": "Intersección con flujo vehicular rotatorio alrededor de una isleta." },
+    { "termino": "Guarnición", "descripcion": "Elemento que delimita banquetas, arroyos e isletas." },
+    { "termino": "Isleta", "descripcion": "Superficie delimitada en intersecciones para canalizar tránsito o proteger peatones." },
+    { "termino": "Paradero", "descripcion": "Zona con mobiliario para la detención momentánea de transporte público." },
+    { "termino": "Privada", "descripcion": "Vía secundaria de uso común para el acceso a predios." },
+    { "termino": "Puente", "descripcion": "Estructura superior a seis metros que permite el paso sobre obstáculos o depresiones." },
+    { "termino": "Retorno", "descripcion": "Movimiento vehicular que permite regresar en sentido opuesto (vuelta en 'U')." },
+    { "termino": "Semáforo", "descripcion": "Dispositivo óptico que regula el tránsito mediante colores y tiempo." },
+    { "termino": "Señalamiento", "descripcion": "Marcas y señales que regulan o guían el tránsito en vías públicas." },
+    { "termino": "Terminal", "descripcion": "Espacio fuera de la vía pública para el inicio o fin del servicio de transporte público." },
+    { "termino": "Terracería", "descripcion": "Vía sin recubrimiento abierta a la circulación vehicular." },
+    { "termino": "Vibradores", "descripcion": "Bases acanaladas sobre la vía, transversales al eje, para reducir velocidad." },
+    { "termino": "Vado", "descripcion": "Acanalamiento profundo que permite el paso de agua sobre la vía." },
+    { "termino": "Topes", "descripcion": "Bordes transversales sobre la vía para reducir velocidad." },
+    { "termino": "Guías", "descripcion": "Topes laterales en un vado que marcan el límite de paso y profundidad." }
+  ],
+  "explicacion_clara": "Este artículo presenta las definiciones clave para entender la infraestructura vial del municipio, como calles, banquetas, semáforos, topes, paraderos y muchos otros elementos. Estas definiciones ayudan a aplicar correctamente el reglamento y a reconocer los espacios diseñados para vehículos y peatones.",
+  "aplicable_en_infracciones": false
+},
+{
+  "articulo": 107,
+  "titulo": "Reincidencia en infracciones de tránsito",
+  "tipo": "definicional",
+  "intents":["reincidencia_infracciones"],
+  "descripcion": "Define qué se entiende por reincidencia en las infracciones de tránsito y sus consecuencias en términos de sanciones.",
+  "definicion_reincidencia": {
+    "periodo_anual": "Infringir una misma disposición más de una vez durante el lapso de un año contado a partir de la primera infracción.",
+    "periodo_seis_meses": "Violación al reglamento dos veces o más en un periodo que no exceda de seis meses."
+  },
+  "consecuencias": {
+    "sin_descuentos": true,
+    "detalle": "El infractor no podrá gozar del beneficio de descuentos o permutas de las multas aplicadas en caso de reincidencia."
+  },
+  "aplicable_en_infracciones": true,
+  "explicacion_clara": "Si una persona comete la misma infracción más de una vez en un año o dos veces en menos de seis meses, se considera reincidente y pierde el derecho a descuentos o cambios en sus multas."
+}
+
+
+]

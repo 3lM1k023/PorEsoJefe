@@ -1,0 +1,23 @@
+[
+{
+  "articulo": 63,
+  "titulo": "Estacionamiento por causa de fuerza mayor fuera de poblaciones",
+  "tipo": "obligaciones en situaciones de emergencia",
+  "intents":["estacionamiento_fuerza_mayor"],
+  "descripcion": "Establece las medidas que debe tomar el conductor al estacionarse por causa de fuerza mayor en una vía pública fuera de zonas pobladas.",
+  "condiciones": "Aplica cuando un conductor deba estacionarse fuera de zonas pobladas por una situación de fuerza mayor.",
+  "obligaciones": [
+    {
+      "fraccion": "I",
+      "descripcion": "Colocar señales de advertencia adelante y atrás del vehículo, a una distancia aproximada de 60 metros y cerca de la orilla derecha de la superficie de rodamiento."
+    },
+    {
+      "fraccion": "II",
+      "descripcion": "En curvas, cimas o zonas de poca visibilidad, colocar banderas para advertir el frente y la parte posterior del vehículo, a una distancia aproximada de 50 metros del lugar obstruido."
+    }
+  ],
+  "explicacion_clara": "Si debes detenerte fuera de la ciudad por una emergencia, pon señales adelante y atrás de tu vehículo para advertir a otros conductores. Si estás en una curva o zona con poca visibilidad, usa banderas a 50 metros para evitar accidentes.",
+  "aplicable_en_infracciones": true
+}
+
+]

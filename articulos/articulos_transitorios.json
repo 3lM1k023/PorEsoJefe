@@ -1,0 +1,29 @@
+{
+  "transitorios": [
+    {
+      "numero": "PRIMERO",
+      "contenido": "Se deroga el Reglamento de Tránsito para el Municipio de Jojutla, Morelos, aprobado el 17 de junio de 2004, y todas sus disposiciones a partir de la entrada en vigor del Reglamento de Tránsito y Movilidad de Jojutla.",
+      "efecto": "Derogación del reglamento anterior",
+      "aplicable_en_infracciones": false
+    },
+    {
+      "numero": "SEGUNDO",
+      "contenido": "El Reglamento de Tránsito y Movilidad de Jojutla entra en vigor a partir de su publicación en el Periódico Oficial 'Tierra y Libertad'.",
+      "efecto": "Entrada en vigor del nuevo reglamento",
+      "aplicable_en_infracciones": false
+    },
+    {
+      "numero": "TERCERO",
+      "contenido": "Publíquese en la Gaceta Municipal y procédase conforme a lo establecido en la Ley de Mejora Regulatoria para el Estado de Morelos y sus Municipios, para su pleno trámite de publicación en el Periódico Oficial 'Tierra y Libertad'.",
+      "efecto": "Establecimiento del procedimiento de publicación oficial",
+      "aplicable_en_infracciones": false
+    },
+    {
+      "numero": "CUARTO",
+      "contenido": "El Ayuntamiento deberá emitir una CONVOCATORIA para la elaboración de la Norma Técnica de Diseño Urbano en la que participen autoridades municipales competentes, así como sociedad civil organizada, no organizada, instituciones académicas y autoridades auxiliares en el Municipio, en un plazo no mayor de 6 meses a partir de la entrada en vigor de este Reglamento.",
+      "efecto": "Obligación de elaborar una norma técnica de diseño urbano",
+      "plazo_maximo": "6 meses",
+      "aplicable_en_infracciones": false
+    }
+  ]
+}

@@ -1,0 +1,442 @@
+[
+{
+  "articulo": 2,
+  "titulo": "Autoridad responsable de la aplicación",
+  "tipo": "informativo",
+  "descripcion": "Este artículo establece quién es responsable de hacer cumplir el reglamento. Indica que el Ayuntamiento, a través de la Dirección de Tránsito y otras autoridades auxiliares, tiene la facultad de aplicarlo dentro del ámbito municipal.",
+  "estructura": "parrafo",
+  "contenido": [
+    "Corresponde al Ayuntamiento, por conducto del Director de Tránsito y Vialidad Municipal, la observancia y aplicación de este Reglamento y demás disposiciones legales aplicables.",
+    "También corresponde su aplicación a las demás autoridades de tránsito y auxiliares en el ámbito de sus competencias."
+  ],
+  "explicacion_clara": "Este artículo dice que el responsable de hacer cumplir el reglamento es el Ayuntamiento de Jojutla, a través de la Dirección de Tránsito. También pueden participar otras autoridades o auxiliares que tengan funciones relacionadas con el tránsito.",
+  "aplicable_en_infracciones": false
+},
+{
+  "articulo": 5,
+  "titulo": "Autoridades de Tránsito Municipal",
+  "tipo": "informativo",
+  "descripcion": "Este artículo enumera a las personas y organismos que son reconocidos como autoridades en materia de tránsito en el Municipio de Jojutla. Incluye al Presidente Municipal, la Comisión Estatal de Seguridad Pública, y otras figuras clave dentro del gobierno municipal.",
+  "estructura": "lista",
+  "contenido": [
+    "La o el Presidente Municipal.",
+    "La Comisión Estatal de Seguridad Pública.",
+    "La o el Síndico Municipal.",
+    "La o el Director de Tránsito y Vialidad Municipal.",
+    "La o el Director General de Seguridad Pública.",
+    "Los Servidores Públicos que realicen funciones relacionadas con tránsito, vialidad y movilidad según el reglamento, así como quienes sean nombrados por el Director de Tránsito y Vialidad."
+  ],
+  "explicacion_clara": "Este artículo indica quiénes son las autoridades encargadas del tránsito en Jojutla. Incluye a figuras importantes del gobierno local como el Presidente Municipal, directores de tránsito y seguridad pública, y otros servidores públicos designados para funciones relacionadas con el reglamento de tránsito.",
+  "aplicable_en_infracciones": false
+},
+{
+  "articulo": 6,
+  "titulo": "Auxiliares de las autoridades de tránsito",
+  "tipo": "informativo",
+  "descripcion": "Este artículo enumera a las personas e instituciones que actúan como apoyo o asistencia a las autoridades de tránsito en el Municipio de Jojutla. Incluye personal operativo municipal, estatal y federal conforme a la ley.",
+  "estructura": "lista",
+  "contenido": [
+    "Agentes de tránsito.",
+    "Agentes de seguridad pública.",
+    "Personal de protección civil y bomberos.",
+    "Auxiliares viales escolares acreditados.",
+    "Ayudantes municipales (las y los).",
+    "Autoridades estatales y federales con ese carácter conforme a leyes y convenios aprobados por el Ayuntamiento."
+  ],
+  "explicacion_clara": "Este artículo explica que, además de las autoridades principales de tránsito, hay personas e instituciones que ayudan en sus funciones. Estos auxiliares incluyen policías, bomberos, ayudantes municipales, personal de protección civil y autoridades estatales o federales, siempre que tengan ese rol por ley o convenio.",
+  "aplicable_en_infracciones": false
+},
+{
+  "articulo": 7,
+  "titulo": "Funciones y obligaciones del Director de Tránsito y Vialidad",
+  "tipo": "informativo",
+  "descripcion": "Este artículo enumera las principales funciones y obligaciones legales del Director de Tránsito y Vialidad del Municipio de Jojutla, incluyendo la aplicación de leyes, coordinación con otras autoridades, prevención de accidentes, supervisión del tránsito y colaboración con autoridades judiciales.",
+  "estructura": "lista",
+  "contenido": [
+    "Cumplir y hacer cumplir las leyes y reglamentos de tránsito aplicables, incluyendo el Bando de Policía, el Bando de Gobierno y las disposiciones del Ayuntamiento.",
+    "Realizar, coordinar y ejecutar programas que garanticen el derecho a la movilidad, el tránsito y la educación vial.",
+    "Implementar programas para prevenir accidentes, aplicar pruebas de alcoholimetría de manera aleatoria con instrumentos técnicos autorizados.",
+    "Coordinarse con corporaciones policíacas, de protección civil y emergencias para brindar apoyo conjunto cuando sea necesario.",
+    "Supervisar el cumplimiento de las normas de tránsito para mejorar la circulación, proteger el ambiente y proponer mejoras normativas.",
+    "Regular el tránsito de vehículos y peatones en todo el Municipio, conforme a normas locales, estatales y federales.",
+    "Elaborar estudios y recopilar datos técnicos que permitan mejorar el tránsito y la movilidad.",
+    "Fomentar una cultura de tránsito y movilidad basada en los principios del reglamento.",
+    "Brindar colaboración a autoridades judiciales o administrativas cuando lo soliciten.",
+    "Realizar detenciones y poner a disposición del Ministerio Público a los infractores, cuando corresponda.",
+    "Ejercer todas las demás atribuciones que le confieran las leyes, reglamentos y acuerdos municipales."
+  ],
+  "explicacion_clara": "Este artículo detalla todo lo que debe hacer el Director de Tránsito y Vialidad. Desde aplicar las leyes y coordinar operativos, hasta educar en cultura vial, prevenir accidentes, colaborar con autoridades judiciales y proponer mejoras. También puede detener infractores si es necesario.",
+  "aplicable_en_infracciones": false
+},
+{
+  "articulo": 8,
+  "titulo": "Funciones y obligaciones de los agentes de tránsito",
+  "tipo": "informativo",
+  "intents":["funciones_agentes_transito"],
+  "descripcion": "Este artículo establece todas las funciones y responsabilidades que deben cumplir los agentes de tránsito en el Municipio de Jojutla, incluyendo protocolos de actuación, trato al infractor, emisión de sanciones, y coordinación con otras autoridades.",
+  "estructura": "lista",
+  "contenido": [
+    "Cumplir las órdenes de sus superiores en la aplicación de este reglamento y otras disposiciones legales.",
+    "Portar visiblemente su nombre, número de placa, grado y adscripción.",
+    "Aplicar estrategias para agilizar el tránsito vehicular y atención a peatones según las preferencias del reglamento.",
+    "Auxiliar a conductores con fallas mecánicas sin imponer infracción por esa causa (sin omitir otras infracciones).",
+    "Reportar y coordinarse con autoridades municipales ante riesgos o fallas en servicios públicos en la vía.",
+    "Apoyar a cuerpos policiacos en la prevención y persecución de delitos.",
+    "Expedir la boleta de infracción de manera respetuosa, sin extorsión, amenazas ni humillación.",
+    "Aplicar amonestaciones verbales cuando lo indique el reglamento.",
+    "Detener y remitir a autoridades correspondientes a infractores cuando la infracción lo requiera.",
+    "Remitir vehículos al depósito municipal si el reglamento lo establece.",
+    "Solicitar grúas para retirar vehículos u objetos, vigilando trato adecuado del operador.",
+    {
+      "funcion": "Expedir boletas de sanción válidas con los siguientes datos obligatorios:",
+      "detalles": [
+        "Artículos de la ley y reglamento que sustentan la infracción y la sanción.",
+        "Fecha, hora, lugar y descripción del hecho.",
+        "Placas del vehículo o número de permiso.",
+        "Datos del conductor (si está presente): nombre, domicilio, licencia.",
+        "Nombre, placa, adscripción y firma (autógrafa o electrónica) del agente."
+      ]
+    },
+    {
+      "funcion": "Procedimiento con peatones y ciclistas infractores:",
+      "detalles": [
+        "Indicarles que se detengan.",
+        "Identificarse con nombre y número de placa.",
+        "Explicar la falta y mostrar el artículo infringido.",
+        "Amonestar verbalmente y conminar a respetar el reglamento.",
+        "Si hay agresión al agente, remitir al Juez Cívico."
+      ]
+    },
+    {
+      "funcion": "Procedimiento con conductores de vehículos motorizados:",
+      "detalles": [
+        "Indicar que detenga su vehículo en un lugar adecuado (preferiblemente vigilado).",
+        "Reportar vía radio el motivo y datos del vehículo.",
+        "Identificarse y explicar la infracción y su fundamento legal.",
+        "Solicitar documentos: licencia, tarjeta de circulación, seguro vigente.",
+        "Revisar documentos y amonestar o sancionar según proceda.",
+        "Llenar boleta de sanción y entregar copia al conductor.",
+        "Devolver documentos si están correctos, o retenerlos si corresponde.",
+        "Infracciones por medios electrónicos se rigen por el artículo 30.",
+        "Si hay agresión al agente, aplicar sanción y posible remisión al Juez Cívico."
+      ]
+    },
+    "Autorizar la devolución de documentos y solo retener el que garantice el pago de la sanción.",
+    "Cumplir y hacer cumplir todas las disposiciones del reglamento y autoridades competentes."
+  ],
+  "explicacion_clara": "Este artículo establece todo lo que deben hacer los agentes de tránsito: seguir órdenes legales, identificar infractores con respeto, emitir boletas con datos completos, ayudar a conductores si sus autos fallan, y actuar adecuadamente con peatones, ciclistas y conductores. También explica cómo deben tratar una infracción, qué documentos deben pedir, y cuándo deben remitir a alguien al juez o al corralón.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": "24 Bis",
+  "titulo": "Capacitación ciudadana y colaboración para la seguridad vial",
+  "tipo": "informativo",
+  "descripcion": "Este artículo promueve la capacitación continua sobre el Reglamento de Tránsito entre diversos sectores de la sociedad, reconociendo a quienes se formen como promotores del respeto vial y auxiliares coordinados con las autoridades.",
+  "estructura": "lista",
+  "contenido": [
+    "El Ayuntamiento y la Dirección de Tránsito celebrarán convenios de colaboración con grupos empresariales, comerciantes, prestadores de servicios, concesionarios del transporte público y organizaciones civiles, con el fin de capacitarlos en el conocimiento y cumplimiento del Reglamento.",
+    "También se invitará a ciudadanos de manera individual, así como a quienes expresen su interés, para participar en las capacitaciones.",
+    "Al concluir la capacitación satisfactoriamente, se entregará una constancia personalizada que acredita al ciudadano en el conocimiento y cumplimiento del Reglamento.",
+    "Las personas que reciban esta constancia podrán apoyar en la difusión, promoción y comunicación del Reglamento, así como colaborar en la vialidad del Municipio en coordinación con las autoridades de tránsito."
+  ],
+  "explicacion_clara": "Este artículo busca que tanto ciudadanos como organizaciones reciban capacitación sobre el reglamento de tránsito. Quienes se capaciten recibirán una constancia y podrán ayudar a difundir las reglas, promover el respeto vial y colaborar con las autoridades para mejorar la seguridad en las calles.",
+  "aplicable_en_infracciones": false
+},
+{
+  "articulo": 25,
+  "titulo": "Aviso previo para eventos públicos en la vía",
+  "tipo": "informativo",
+  "descripcion": "Este artículo establece la obligación de dar aviso previo a la Dirección de Tránsito y Vialidad Municipal para la realización de eventos públicos en la vía, con el fin de garantizar la seguridad y facilitar la organización vial. También aclara que el aviso no limita el derecho a la manifestación pública.",
+  "estructura": "párrafo",
+  "contenido": "Para garantizar la seguridad de los participantes y una adecuada organización del tránsito, quienes organicen manifestaciones públicas, eventos deportivos, religiosos, fiestas populares, desfiles escolares o caravanas de peatones o vehículos, deberán notificar por escrito a la Dirección de Tránsito y Vialidad Municipal al menos con 24 horas de anticipación. La omisión de este aviso no impide el ejercicio del derecho a la manifestación ni exime a las autoridades de sus obligaciones para proteger a los participantes.",
+  "explicacion_clara": "Si vas a organizar una marcha, desfile, fiesta o evento en la calle, debes avisar por escrito a Tránsito con un día de anticipación. Aunque no avises, las autoridades deben cuidar a los participantes y no pueden impedir el evento.",
+  "aplicable_en_infracciones": false
+},
+{
+  "articulo": 26,
+  "titulo": "Obligaciones en obras que afecten la vía pública",
+  "tipo": "informativo",
+  "intents":["obras_via_publica"],
+  "descripcion": "Este artículo establece que quienes realicen obras en la vía pública deben colocar señalización y dispositivos de control de tránsito para proteger a peatones y conductores. También indica que los agentes de tránsito deben notificar a las autoridades correspondientes.",
+  "estructura": "párrafo",
+  "contenido": "Cualquier persona o empresa que realice obras en las vías públicas debe colocar dispositivos auxiliares de control de tránsito tanto en el lugar de la obra como en su zona de influencia (mínimo 20 metros), si los trabajos afectan o ponen en riesgo el tránsito seguro de personas o vehículos. Además, el agente de tránsito deberá notificar a las áreas competentes del gobierno municipal para que regulen adecuadamente la situación.",
+  "explicacion_clara": "Si vas a hacer una obra en la calle, debes poner señales y equipo de seguridad desde al menos 20 metros antes del área. Si el trabajo pone en riesgo a peatones o conductores, el tránsito debe ser advertido. Los agentes también deben avisar a las autoridades para que controlen la zona.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 27,
+  "titulo": "Preferencia de paso para peatones",
+  "tipo": "informativo",
+  "intents":["preferencia_peatones"],
+  "descripcion": "Este artículo detalla las situaciones en las que los conductores deben ceder el paso a los peatones para garantizar su seguridad, y las condiciones bajo las cuales pueden usar la vía cuando las aceras estén impedidas.",
+  "estructura": "lista",
+  "contenido": [
+    {
+      "situacion": "Intersecciones con semáforos",
+      "detalles": [
+        "Cuando la luz verde sea para peatones.",
+        "Si el peatón ya está cruzando aunque cambie la luz.",
+        "Si un vehículo va a dar vuelta y hay peatones cruzando."
+      ]
+    },
+    {
+      "situacion": "Intersecciones sin semáforos",
+      "detalles": [
+        "Los conductores deben detenerse y ceder el paso a los peatones que estén esperando para cruzar."
+      ]
+    },
+    {
+      "situacion": "Prioridad de uso del arroyo vehicular por parte de peatones",
+      "detalles": [
+        "Cuando no haya aceras disponibles.",
+        "Si las aceras están bloqueadas por obras, eventos o flujo excesivo de personas.",
+        "Cuando haya procesiones, filas escolares o contingentes organizados.",
+        "Si remolcan objetos grandes, deben usar el primer carril en el sentido de la vía.",
+        "Quienes usen sillas de ruedas, bicicletas recreativas o ayudas técnicas pueden usar el primer carril o ciclovías."
+      ]
+    },
+    {
+      "situacion": "Cruce de acera por vehículos",
+      "detalles": [
+        "Cuando un vehículo deba cruzar la acera para entrar o salir de un estacionamiento o propiedad privada, debe ceder el paso al peatón."
+      ]
+    },
+    {
+      "situacion": "Calles de prioridad peatonal",
+      "detalles": [
+        "En estas calles los peatones pueden caminar en cualquier sentido y ocupar toda la vía."
+      ]
+    },
+    {
+      "sanciones": "Si un conductor no motorizado no respeta estas reglas, será amonestado verbalmente. Si es motorizado, se le aplicarán sanciones conforme a la Ley de Ingresos."
+    }
+  ],
+  "explicacion_clara": "Los conductores deben dar siempre prioridad a los peatones, sobre todo si están cruzando calles, no hay banquetas o hay obstáculos. En calles donde los peatones tienen prioridad total, los vehículos deben esperar. Si no lo respetan, puede haber sanciones, especialmente para los conductores de vehículos motorizados.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 28,
+  "titulo": "Comportamiento respetuoso de conductores y pasajeros",
+  "tipo": "informativo",
+  "intents":["respeto_conductores_pasajeros"],
+  "descripcion": "Este artículo promueve la sana convivencia entre todos los usuarios de la vía pública, prohibiendo actos agresivos, intimidantes o irrespetuosos por parte de conductores o pasajeros, así como el uso indebido del claxon.",
+  "estructura": "lista",
+  "contenido": [
+    "Todos los conductores y pasajeros deben obedecer las señales de tránsito y las indicaciones del personal vial.",
+    {
+      "prohibido": [
+        "Agredir o golpear al personal que agiliza el tránsito o aplica sanciones.",
+        "Proferir ofensas con señas, sonidos o accesorios del vehículo.",
+        "Intimidar o agredir físicamente a otros usando el vehículo.",
+        "Usar el claxon para algo distinto a evitar un accidente (especialmente en tráfico).",
+        "Generar ruido excesivo con el motor."
+      ]
+    },
+    {
+      "sanciones": [
+        "Los conductores que incurran en las conductas de las fracciones I y II serán remitidos con la autoridad competente.",
+        "Estas acciones también pueden recibir otras sanciones adicionales establecidas en otros reglamentos o códigos."
+      ]
+    }
+  ],
+  "explicacion_clara": "Los conductores y pasajeros deben comportarse con respeto hacia los demás y hacia el personal de tránsito. No pueden insultar, golpear, intimidar o usar el claxon para molestar. Si lo hacen, serán sancionados e incluso llevados ante la autoridad.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 29,
+  "titulo": "Obligaciones generales de los conductores",
+  "tipo": "informativo",
+  "intents":["obligaciones_conductores"],
+  "descripcion": "Este artículo establece las obligaciones básicas que deben cumplir todos los conductores de vehículos motorizados y no motorizados para garantizar una circulación vial segura y ordenada.",
+  "estructura": "lista",
+  "contenido": [
+    "Obedecer las indicaciones de agentes, personal de apoyo vial y respetar la señalización vial según el anexo correspondiente.",
+    "Tomar precauciones con peatones sobre el arroyo vehicular, reduciendo la velocidad o deteniéndose especialmente en zonas escolares y calles peatonales.",
+    "Abrir puertas con precaución para evitar accidentes con peatones, ciclistas u otros usuarios.",
+    "Compartir los carriles con responsabilidad, cambiando de carril de forma escalonada y anticipada al dar vuelta.",
+    "Circular en el sentido de la vía, respetando tramos y horarios en vías reversibles, y en vías de doble sentido circular por el costado derecho.",
+    "Rebasar solo por el lado izquierdo y mantener al menos 1.5 metros de distancia al adelantar a ciclistas o motociclistas.",
+    "Alinearse a la derecha y reducir velocidad cuando otro vehículo intente adelantar.",
+    "Mantener una distancia mínima de 10 metros con el vehículo de enfrente; el doble en caso de lluvia o arena en la vía.",
+    "Indicar giros o cambios de carril con luces direccionales o señales manuales si es un vehículo no motorizado.",
+    "Reducir velocidad y permitir incorporaciones cuando otro vehículo indique el cambio con direccional.",
+    "Dar prioridad a vehículos de emergencia con torreta y sirena encendidas, alineándose a la derecha si es posible.",
+    "Reducir velocidad y extremar precauciones cuando haya transporte público en maniobra de ascenso/descenso.",
+    "Respetar los cajones de estacionamiento destinados a personas con discapacidad en estacionamientos particulares.",
+    "Permanecer en el lugar si se comete una infracción o accidente, siguiendo indicaciones del agente de tránsito. La fuga será sancionada.",
+    {
+      "fraccion": "Obligaciones en zonas escolares:",
+      "detalles": [
+        "Disminuir velocidad y extremar precauciones según la señalización vial.",
+        "Parar y ceder el paso a los escolares.",
+        "Obedecer las indicaciones de agentes y auxiliares viales escolares."
+      ]
+    }
+  ],
+  "explicacion_clara": "Este artículo reúne todas las reglas que los conductores deben seguir en la vía: obedecer señales, respetar a peatones, ciclistas y otros conductores, mantener distancia, ceder el paso, usar direccionales, y ser precavidos en zonas escolares. También se señala que fugarse de un hecho de tránsito es motivo de sanción.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 30,
+  "titulo": "Límites de velocidad y control mediante radar",
+  "tipo": "informativo",
+  "intents":["limites_velocidad"],
+  "descripcion": "Este artículo establece los límites de velocidad aplicables a los conductores de vehículos motorizados en el Municipio de Jojutla, especificando diferentes límites según el tipo de vía o zona, e indica el uso de radares para su control.",
+  "estructura": "lista",
+  "contenido": [
+    {
+      "fraccion": "I",
+      "descripcion": "En vías entre poblados de zonas no urbanizadas: velocidad máxima de 70 km/h."
+    },
+    {
+      "fraccion": "II",
+      "descripcion": "En vías primarias: velocidad máxima de 50 km/h."
+    },
+    {
+      "fraccion": "III",
+      "descripcion": "En vías secundarias: velocidad máxima de 30 km/h."
+    },
+    {
+      "fraccion": "IV",
+      "descripcion": "En zonas escolares, de hospitales, asilos, albergues y casas hogar: velocidad máxima de 20 km/h."
+    },
+    {
+      "fraccion": "V",
+      "descripcion": "En estacionamientos y vías peatonales con acceso vehicular: velocidad máxima de 10 km/h."
+    },
+    {
+      "fraccion": "VI",
+      "descripcion": "Reducir velocidad al transitar sobre reductores de velocidad y no intentar evadirlos."
+    },
+    "La Dirección de Tránsito y Vialidad Municipal podrá usar radares para medir la velocidad de los vehículos en Jojutla y verificar el cumplimiento de este artículo.",
+    "La Dirección deberá mantener actualizado y público el atlas de límites de velocidad por vía o zona.",
+    "Conductores de vehículos no motorizados que incumplan este artículo serán amonestados verbalmente y orientados.",
+    "Conductores de vehículos motorizados que excedan los límites serán sancionados según la Ley de Ingresos.",
+    "La sanción máxima se aplicará si el exceso de velocidad es mayor a 20 km/h sobre el límite permitido, de acuerdo con registros de equipos tecnológicos."
+  ],
+  "explicacion_clara": "Este artículo indica los límites de velocidad según la zona: entre poblados (70 km/h), vías primarias (50), secundarias (30), escolares y hospitales (20), y estacionamientos o zonas peatonales (10). Si no hay señalamiento, estos límites aplican. Además, se permite el uso de radares para medir la velocidad y se aplican multas si se rebasa el límite, especialmente si se excede por más de 20 km/h.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 31,
+  "titulo": "Condiciones de seguridad para vehículos particulares motorizados",
+  "tipo": "informativo",
+  "intents":["condiciones_seguridad_vehiculos"],
+  "descripcion": "Este artículo establece los requisitos mínimos de seguridad y comportamiento que deben cumplir los conductores de vehículos particulares motorizados para circular en el Municipio de Jojutla.",
+  "estructura": "lista",
+  "contenido": [
+    {
+      "fraccion": "I",
+      "descripcion": "Asegurarse de que todos los pasajeros usen el cinturón de seguridad. El conductor también debe usarlo, excepto en vehículos de emergencia. Los taxistas no están obligados respecto a sus pasajeros."
+    },
+    {
+      "fraccion": "II",
+      "descripcion": "Sujetar firmemente el volante con ambas manos y no permitir que otro pasajero lo tome."
+    },
+    {
+      "fraccion": "III",
+      "descripcion": "Tener faros delanteros, traseros, luces cuartos y reversa en buen estado."
+    },
+    {
+      "fraccion": "IV",
+      "descripcion": "Tener frenos en buenas condiciones."
+    },
+    {
+      "fraccion": "V",
+      "descripcion": "Contar con espejos retrovisores funcionales."
+    },
+    {
+      "fraccion": "VI",
+      "descripcion": "Tener lámpara de freno en buen estado."
+    },
+    {
+      "fraccion": "VII",
+      "descripcion": "Tener limpiadores de parabrisas funcionando correctamente."
+    },
+    {
+      "fraccion": "VIII",
+      "descripcion": "En vehículos pesados o maquinaria, contar con lámparas demarcadoras y reflejantes."
+    },
+    {
+      "fraccion": "IX",
+      "descripcion": "Usar luces direccionales para cambiar de carril o girar en intersecciones."
+    },
+    {
+      "fraccion": "X",
+      "descripcion": "Tener cristales que permitan una buena visibilidad."
+    },
+    {
+      "fraccion": "XI",
+      "descripcion": "Contar con claxon funcional."
+    },
+    {
+      "fraccion": "XII",
+      "descripcion": "Contar con defensas trasera y delantera en buen estado."
+    },
+    {
+      "fraccion": "XIII",
+      "descripcion": "Tener una llanta de refacción en buen estado."
+    },
+    {
+      "fraccion": "XIV",
+      "descripcion": "No transportar más personas que las permitidas por la tarjeta de circulación."
+    },
+    {
+      "fraccion": "XV",
+      "descripcion": "No arrojar basura desde el vehículo a la vía pública."
+    },
+    "El incumplimiento de estas disposiciones se sancionará conforme a la Ley de Ingresos vigente."
+  ],
+  "explicacion_clara": "Este artículo dice que los vehículos deben estar en buen estado y tener todo lo necesario para circular con seguridad: luces, frenos, claxon, espejos, cinturones, llanta de refacción, etc. También prohíbe llevar a más personas de las permitidas o tirar basura desde el vehículo. Si no se cumple, hay multas según la Ley de Ingresos.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": "31 Bis",
+  "titulo": "Transporte seguro de menores",
+  "tipo": "informativo",
+  "intents":["transporte_menores_seguro"],
+  "descripcion": "Este artículo establece la obligación de los conductores de vehículos para garantizar la seguridad de menores de 12 años o que midan menos de 1.45 metros de altura al viajar.",
+  "estructura": "texto",
+  "contenido": "Los conductores de automóviles que viajen con pasajeros menores de doce años de edad o que midan menos de 1.45 metros de altura, deberán asegurarse que estos ocupen una de las plazas traseras sobre la hilera inmediatamente posterior a los asientos del conductor o del copiloto que cuente con cinturón de seguridad de tres puntos.",
+  "explicacion_clara": "Si llevas menores de 12 años o que midan menos de 1.45 metros, deben ir en los asientos traseros que tengan cinturón de seguridad de tres puntos. Esto es por su seguridad.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": "32",
+  "titulo": "Reglas de preferencia en intersecciones",
+  "tipo": "informativo",
+  "intents":["preferencia_intersecciones"],
+  "descripcion": "Este artículo establece las reglas que los conductores deben seguir en las intersecciones para garantizar la seguridad vial y el flujo adecuado del tránsito.",
+  "estructura": "numerado",
+  "contenido": {
+    "I": "Los peatones tienen preferencia de paso sobre los vehículos, conforme a los artículos 21 y 27.",
+    "II": "Los vehículos no motorizados tienen preferencia sobre los vehículos motorizados, según el artículo 41.",
+    "III": "Los vehículos de emergencia tienen preferencia cuando circulan con luces o sirenas encendidas.",
+    "IV": "En intersecciones controladas por agentes, personal vial o auxiliares, se deben seguir sus indicaciones por encima de las señales o semáforos.",
+    "V": "En el Primer Cuadro de la Cabecera Municipal y otras zonas designadas, aplica la regla 'uno por uno', respetando las prioridades anteriores.",
+    "VI": {
+      "a": "Con semáforo en rojo, detenerse sin invadir el cruce peatonal o la zona de espera para ciclistas o motociclistas.",
+      "b": "Si hay congestión que impida cruzar, aunque el semáforo esté en verde, detenerse para no bloquear el cruce.",
+      "c": "Con semáforos intermitentes, reducir la velocidad. El que tenga luz ámbar intermitente tiene preferencia sobre el de luz roja intermitente.",
+      "d": "Entre las 23:00 y las 5:00, con semáforo en rojo, se podrá avanzar con precaución si no hay peatones ni vehículos cruzando."
+    },
+    "VII": "En glorietas, tiene preferencia el vehículo que ya está dentro. Si hay varios carriles, tiene preferencia quien intenta salir.",
+    "VIII": "La vuelta continua está prohibida salvo que haya señal que la permita. Se debe ceder paso a peatones y vehículos en circulación.",
+    "IX": "En reducción de carriles, tiene preferencia el vehículo que ya está en el carril que se mantiene. Se debe avanzar uno por uno.",
+    "X": "En pendientes sin espacio para dos vehículos, tiene preferencia el que va subiendo."
+  },
+  "explicacion_clara": "Este artículo indica quién debe pasar primero en un cruce. Por ejemplo, los peatones y vehículos de emergencia tienen prioridad. Si hay semáforos o agentes dando instrucciones, hay que obedecerlos. También habla de cómo actuar en glorietas, vueltas continuas y pendientes.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": "33",
+  "titulo": "Seguro de responsabilidad civil",
+  "tipo": "informativo",
+  "intents":["seguro_responsabilidad_civil"],
+  "descripcion": "Este artículo establece la obligación de contar con seguro de responsabilidad civil vigente para circular con vehículos motorizados.",
+  "estructura": "parrafo",
+  "contenido": "Los vehículos motorizados deben contar con una póliza de seguro de responsabilidad civil vigente, que cubra daños a terceros tanto en su persona como en su patrimonio. Las unidades de transporte público de pasajeros o de carga también deben tener una póliza vigente que cubra cualquier daño o perjuicio a los usuarios o terceros ocasionado durante la prestación del servicio.",
+  "explicacion_clara": "Todos los vehículos motorizados deben tener un seguro que proteja a otras personas en caso de un accidente. Si se trata de transporte público o de carga, el seguro también debe cubrir a los pasajeros o a cualquier persona afectada.",
+  "aplicable_en_infracciones": true
+}
+]

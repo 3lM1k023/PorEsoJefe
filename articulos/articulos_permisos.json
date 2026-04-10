@@ -1,0 +1,15 @@
+[
+{
+  "articulo": 80,
+  "titulo": "Conducción por personas con discapacidad o movilidad limitada",
+  "tipo": "permisos",
+  "intents":["conduccion_discapacitados"],
+  "descripcion": "Las personas con discapacidades o movilidad limitada pueden conducir vehículos siempre que cuenten con una licencia o permiso expedido por la autoridad competente y utilicen vehículos con adecuaciones técnicas necesarias.",
+  "requisitos": [
+    "Contar con una licencia o permiso vigente expedido por la autoridad competente",
+    "Procurar que el vehículo cuente con las adecuaciones técnicas necesarias para su condición"
+  ],
+  "explicacion_clara": "Las personas con discapacidad o movilidad reducida pueden manejar si tienen su licencia o permiso correspondiente. También deben asegurarse de que el vehículo esté adaptado a sus necesidades para garantizar la seguridad propia y de los demás.",
+  "aplicable_en_infracciones": true
+}
+]

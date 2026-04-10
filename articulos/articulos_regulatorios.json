@@ -1,0 +1,224 @@
+[
+ {
+  "articulo": 11,
+  "titulo": "Circulación de vehículos con placas extranjeras",
+  "tipo": "regulatorio",
+  "intents":["circulacion_placas_extranjeras"],
+  "descripcion": "Este artículo establece que los vehículos con placas extranjeras pueden circular por el municipio siempre que su estancia en el país sea legal. Las autoridades de tránsito pueden pedir comprobantes que acrediten dicha legalidad.",
+  "estructura": "parrafo",
+  "contenido": [
+    "Los vehículos motorizados con placas extranjeras podrán circular libremente por las vías públicas del Municipio durante el período concedido a sus propietarios o conductores para su estancia en el país.",
+    "En este caso las autoridades de tránsito, podrán solicitar a los interesados que acrediten la legal estancia del vehículo en su territorio."
+  ],
+  "explicacion_clara": "Los autos con placas extranjeras pueden circular en Jojutla mientras dure su permiso de estancia en México. Pero si una autoridad lo pide, el conductor debe demostrar que el vehículo está legalmente en el país.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 12,
+  "titulo": "Registro y actualización de vehículos particulares",
+  "tipo": "regulatorio",
+  "intents":["registro_actualizacion_vehiculos"],
+  "descripcion": "Este artículo indica que los propietarios de vehículos particulares que vivan en el Municipio deben registrar sus vehículos ante la autoridad estatal, colocar correctamente los documentos expedidos y notificar cambios importantes en el vehículo como el motor o la carrocería.",
+  "estructura": "parrafo",
+  "contenido": [
+    "Los propietarios de vehículos de uso particular residentes en el Municipio, deberán registrarlos ante la autoridad de movilidad y transporte del estado de Morelos.",
+    "Dicha autoridad expedirá las placas de matriculación, la calcomanía, la tarjeta de circulación y otros documentos necesarios.",
+    "Los documentos expedidos deberán colocarse en los vehículos conforme lo establece este Reglamento.",
+    "En caso de cambio de carrocería o de motor, el propietario debe notificarlo a la autoridad de movilidad y transporte del estado de Morelos en un plazo de treinta días naturales."
+  ],
+  "explicacion_clara": "Si tienes un auto particular y vives en Jojutla, debes registrarlo con la autoridad estatal de transporte para que te den tus placas, tarjeta y demás documentos. También debes informar si cambias el motor o la carrocería del auto en menos de 30 días.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 13,
+  "titulo": "Sentido y zonas permitidas para la circulación",
+  "tipo": "regulatorio",
+  "intents":["circulacion_sentido_zonas_permitidas"],
+  "descripcion": "Este artículo establece que los vehículos deben circular únicamente en los sentidos y zonas permitidas. Está prohibido transitar por áreas designadas para peatones, camellones, banquetas o marcas viales.",
+  "estructura": "parrafo",
+  "contenido": [
+    "La circulación se hará en el sentido o dirección señalada y sobre las áreas expresamente marcadas.",
+    "Está prohibido circular sobre zonas de peatones, isletas, camellones, banquetas, rayas longitudinales o marcas de aproximación, estén pintadas o realzadas."
+  ],
+  "explicacion_clara": "Este artículo dice que los vehículos deben circular solo por donde está permitido. No se puede manejar sobre banquetas, camellones, pasos peatonales o líneas pintadas en la calle.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 14,
+  "titulo": "Prohibición de circular en sentido contrario",
+  "tipo": "regulatorio",
+  "intents":["prohibicion_sentido_contrario"],
+  "descripcion": "Este artículo prohíbe que los vehículos circulen en sentido contrario al indicado, salvo en casos de emergencia justificada por vehículos oficiales autorizados.",
+  "estructura": "parrafo",
+  "contenido": [
+    "Se prohíbe la circulación o invasión en sentido contrario.",
+    "Solo podrán hacerlo en caso de emergencia las ambulancias, los vehículos del cuerpo de Bomberos, de Seguridad Pública y de Tránsito."
+  ],
+  "explicacion_clara": "Está prohibido manejar en sentido contrario. Solo en emergencias pueden hacerlo ambulancias, patrullas, bomberos y tránsito.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 15,
+  "titulo": "Incorporación desde vía secundaria a primaria",
+  "tipo": "regulatorio",
+  "intents":["ceder_paso_via_secundaria"],
+  "descripcion": "Este artículo establece la obligación de los conductores que vienen de una vía secundaria de ceder el paso a quienes circulan por una vía primaria antes de incorporarse.",
+  "estructura": "parrafo",
+  "contenido": [
+    "Los conductores que pretendan incorporarse a una vía primaria desde una vía secundaria, deberán ceder el paso a los vehículos que circulen por la primera antes de hacerlo."
+  ],
+  "explicacion_clara": "Si vas a incorporarte desde una calle secundaria a una avenida principal, debes dejar pasar primero a los vehículos que ya circulan por la vía principal.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 16,
+  "titulo": "Cambio de carril para salir de una vía primaria",
+  "tipo": "regulatorio",
+  "intents":["cambio_carril_salida_via_primaria"],
+  "descripcion": "Este artículo indica que los conductores deben prepararse con tiempo y colocarse en el carril adecuado antes de salir de una vía primaria.",
+  "estructura": "parrafo",
+  "contenido": [
+    "Los conductores que deseen salir de una vía primaria deberán pasar con anticipación al carril correspondiente para efectuar la salida."
+  ],
+  "explicacion_clara": "Si vas a salir de una avenida principal, debes cambiarte con tiempo al carril correcto para hacerlo de forma segura.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 17,
+  "titulo": "Preferencia de paso para vehículos de emergencia",
+  "tipo": "regulatorio",
+  "intents":["preferencia_vehiculos_emergencia"],
+  "descripcion": "Este artículo establece las reglas que deben seguirse cuando circulan vehículos de emergencia como ambulancias, patrullas o bomberos, incluyendo el comportamiento que deben adoptar los demás conductores.",
+  "estructura": "parrafos",
+  "contenido": [
+    "En las vías públicas tienen preferencia de paso, cuando circulen con la sirena o torreta luminosa encendida, las ambulancias, patrullas, vehículos oficiales, vehículos de Bomberos y/o el convoy militar.",
+    "Estos vehículos podrán dejar de atender las normas de circulación del reglamento, tomando las debidas precauciones.",
+    "Los conductores de otros vehículos en el carril inmediato deberán disminuir la velocidad y facilitar el paso, alineándose a la derecha si es posible.",
+    "Está prohibido seguir a los vehículos de emergencia o estacionarse cerca de ellos si puede entorpecer su labor.",
+    "El uso de emblemas de vehículos de emergencia está prohibido en otros tipos de vehículos.",
+    "El agente podrá imponer, además de la sanción económica, una multa cívica de educación vial si se infringe este artículo."
+  ],
+  "explicacion_clara": "Cuando una ambulancia, patrulla o camión de bomberos lleva la sirena o torreta encendida, tiene preferencia para pasar. Los demás conductores deben ceder el paso, moverse a la derecha y no seguir ni bloquear su camino. Usar sus emblemas sin permiso también está prohibido.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 18,
+  "titulo": "Respeto al derecho de circulación de motociclistas y ciclistas",
+  "tipo": "regulatorio",
+  "intents":["respeto_motos_bicicletas"],
+  "descripcion": "Este artículo establece la obligación de los conductores de vehículos motorizados de respetar el derecho de motociclistas y ciclistas a usar el carril de circulación, y sanciona cualquier acto de agresión contra ellos.",
+  "estructura": "parrafo",
+  "contenido": [
+    "Los conductores de vehículos motorizados de cuatro o más ruedas deberán respetar el derecho que tienen los motociclistas y ciclistas para usar el carril de circulación.",
+    "Se considera falta cualquier acto de agresión hacia este derecho."
+  ],
+  "explicacion_clara": "Este artículo dice que los carros y camionetas deben respetar a las motos y bicicletas cuando van por el mismo carril. Agredirlos o impedirles el paso está prohibido y es motivo de sanción.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 19,
+  "titulo": "Circulación de vehículos de tracción humana o animal",
+  "tipo": "regulatorio",
+  "intents":["vehiculos_traccion_humana_animal"],
+  "descripcion": "Este artículo regula la circulación de vehículos de tracción humana o animal, indicando que deben transitar únicamente por las zonas señaladas por la Dirección de Tránsito, por la extrema derecha y con las debidas precauciones, excepto las bicicletas o lo estipulado en el Capítulo V.",
+  "estructura": "parrafo",
+  "contenido": [
+    "Con excepción de las bicicletas y lo estipulado en el Capítulo V, los vehículos de tracción humana o animal solo podrán circular en las zonas señaladas por la Dirección de Tránsito y Vialidad Municipal.",
+    "Deberán hacerlo por su extrema derecha y con las precauciones necesarias.",
+    "Deben cumplir con lo dispuesto en este Reglamento."
+  ],
+  "explicacion_clara": "Este artículo dice que los vehículos jalados por personas o animales (como carretas) solo pueden circular por zonas específicas, siempre por la derecha y con mucho cuidado. Las bicicletas no entran en esta regla.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 20,
+  "titulo": "Obligaciones de los peatones",
+  "tipo": "regulatorio",
+  "intents":["obligaciones_peatones"],
+  "descripcion": "Este artículo establece que los peatones también están obligados a cumplir con el Reglamento de Tránsito, así como a respetar las indicaciones de los agentes, auxiliares viales y las señales de control de tránsito.",
+  "estructura": "parrafo",
+  "contenido": [
+    "Los peatones deberán cumplir las disposiciones de este Reglamento y demás cuerpos normativos aplicables.",
+    "También deberán seguir las indicaciones de los agentes, auxiliares viales, las señales y dispositivos para el control de tránsito."
+  ],
+  "explicacion_clara": "Los peatones también deben seguir las reglas del reglamento, obedecer a los agentes de tránsito, auxiliares y respetar las señales de tráfico.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 21,
+  "titulo": "Preferencia de paso a peatones",
+  "tipo": "regulatorio",
+  "intents":["preferencia_peatones"],
+  "descripcion": "Este artículo establece que los peatones tienen prioridad al cruzar las vías públicas, y que los conductores deben actuar con respeto y precaución para proteger su integridad física.",
+  "estructura": "parrafo",
+  "contenido": [
+    "Los peatones tendrán preferencia de paso.",
+    "Los conductores de vehículos deberán guardar la consideración debida y tomar las precauciones necesarias para la protección y seguridad de la integridad física de los peatones."
+  ],
+  "explicacion_clara": "Los peatones tienen prioridad en la vía. Los conductores deben respetarlos y tener cuidado para no ponerlos en peligro.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 22,
+  "titulo": "Preferencia y asistencia a personas con discapacidad o menores",
+  "tipo": "regulatorio",
+  "intents":["preferencia_asistencia_discapacitados_menores"],
+  "descripcion": "Este artículo indica que los peatones deben ceder el paso y brindar asistencia a personas con discapacidad, movilidad limitada o menores de diez años, especialmente al cruzar calles o zonas peatonales.",
+  "estructura": "parrafo",
+  "contenido": [
+    "Los peatones deberán dar preferencia y asistir a aquellos con discapacidad o movilidad limitada.",
+    "También deberán hacerlo con las y los menores de diez años, especialmente en los cruces de calles y peatonales."
+  ],
+  "explicacion_clara": "Los peatones deben ayudar y ceder el paso a personas con discapacidad, movilidad reducida y niños menores de 10 años cuando crucen la calle.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 23,
+  "titulo": "Obligaciones de los peatones en la vía pública",
+  "tipo": "regulatorio",
+  "intents":["obligaciones_peatones_via_publica"],
+  "descripcion": "Este artículo establece las acciones que deben seguir los peatones para transitar de forma segura y respetuosa por la vía pública, además de las responsabilidades de las autoridades para proteger su integridad.",
+  "estructura": "lista",
+  "contenido": [
+    "Antes de cruzar una vía, deben mirar a ambos lados para asegurarse de que los vehículos pueden frenar con tiempo y procurar contacto visual con los conductores.",
+    "Deben ceder el paso a vehículos de emergencia que usen sirena o luces encendidas.",
+    "En vías primarias y secundarias con más de dos carriles, deben cruzar en esquinas o cruces peatonales. En vías secundarias de hasta dos carriles, pueden cruzar en cualquier punto, siempre que sea seguro.",
+    "Donde haya semáforos peatonales, deben obedecer sus indicaciones.",
+    "No pueden usar patines, patinetas u objetos similares en banquetas o infraestructura peatonal.",
+    "No deben integrarse de forma repentina a la superficie de circulación vehicular.",
+    {
+      "nota": "Los peatones que no cumplan con estas obligaciones serán amonestados verbalmente y orientados por agentes para cumplir con el reglamento."
+    },
+    {
+      "nota": "Las autoridades deben garantizar la seguridad de los peatones, especialmente de personas con discapacidad o movilidad limitada, y mantener libres de obstáculos las vías peatonales."
+    }
+  ],
+  "explicacion_clara": "Este artículo indica cómo deben comportarse los peatones al caminar por las calles: mirar antes de cruzar, obedecer semáforos, no usar patines en las banquetas y cruzar por lugares seguros. Si no lo hacen, los agentes pueden llamarles la atención. También obliga a las autoridades a mantener los caminos peatonales seguros y accesibles.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 24,
+  "titulo": "Regulación del tránsito en zonas escolares",
+  "tipo": "regulatorio",
+  "intents":["regulacion_zonas_escolares"],
+  "descripcion": "Este artículo establece las acciones para proteger a los peatones, especialmente en horarios de entrada y salida de escuelas, a través de agentes, auxiliares viales, y convenios con instituciones educativas.",
+  "estructura": "lista",
+  "contenido": [
+    "Agentes y auxiliares viales deben planear e implementar acciones en horarios escolares de entrada y salida cuando sean solicitados.",
+    {
+      "funcion": "El Ayuntamiento podrá hacer convenios con escuelas y comités de padres para habilitar auxiliares viales, considerando:",
+      "detalles": [
+        "Los convenios deben especificar cuántos auxiliares habrá, en qué horarios, quiénes son, y qué responsabilidades tienen.",
+        "La Dirección de Tránsito capacitará continuamente a los auxiliares viales y podrá proponer su remoción si incumplen normas.",
+        "Al finalizar la capacitación se les entregará una constancia que los acredita para dirigir tránsito en escuelas y eventos especiales.",
+        "Conductores y peatones deben obedecer a estos auxiliares y a los agentes durante su labor, quienes les darán el derecho de paso.",
+        "El Ayuntamiento podrá proporcionar materiales de control vial: paletas, conos, silbatos, casacas, insignias, etc.",
+        "Se buscará instalar señalamientos, reductores de velocidad y pasos peatonales para mayor seguridad escolar.",
+        "Las escuelas deben tener un reglamento vial interno aprobado por la autoridad de tránsito, difundido entre toda la comunidad escolar."
+      ]
+    }
+  ],
+  "explicacion_clara": "Este artículo busca proteger a estudiantes, docentes y familias en las zonas escolares. Autoriza a los auxiliares viales capacitados para controlar el tránsito en horarios escolares. Además, permite que las escuelas colaboren con las autoridades y se les den herramientas, señalización y reglamentos para asegurar una movilidad segura.",
+  "aplicable_en_infracciones": true
+}
+]

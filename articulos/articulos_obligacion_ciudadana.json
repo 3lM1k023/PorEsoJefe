@@ -1,0 +1,18 @@
+[
+{
+  "articulo": 88,
+  "titulo": "Actuación en caso de hecho de tránsito con consecuencias graves",
+  "tipo": "obligación ciudadana",
+  "intents":["actuacion_accidente_grave"],
+  "descripcion": "Establece las acciones que deben realizarse cuando ocurre un hecho de tránsito con consecuencias como lesiones, muerte o derrames peligrosos.",
+  "sujeto": "Personas involucradas en el hecho de tránsito o testigos del mismo",
+  "obligaciones": [
+    "Informar inmediatamente a los servicios de emergencia con detalles del accidente, número de lesionados y posibles sustancias peligrosas.",
+    "En caso de no poder informar directamente, solicitar apoyo a terceros para hacerlo.",
+    "Colocar señalamientos de advertencia para prevenir nuevos accidentes y desviar la circulación si es posible.",
+    "Los peatones y conductores ajenos al incidente deben continuar su marcha y no obstaculizar los trabajos de auxilio, salvo que se les solicite ayuda."
+  ],
+  "explicacion_clara": "Si ocurre un accidente grave, como uno con heridos, muertos o derrame de sustancias peligrosas, quienes estén involucrados o incluso quienes solo pasen por el lugar deben reportarlo a emergencias lo antes posible, colocando señales para evitar más accidentes. Los demás conductores o peatones no deben detenerse ni interferir, a menos que las autoridades les pidan apoyo.",
+  "aplicable_en_infracciones": true
+}
+]

@@ -1,0 +1,18 @@
+[
+{
+  "articulo": 94,
+  "titulo": "Verificación de documentación durante hechos de tránsito",
+  "tipo": "facultad y obligación de la autoridad",
+  "intents":["verificacion_documentos_transito"],
+  "descripcion": "Las autoridades de tránsito deberán verificar la documentación necesaria para la circulación una vez que las personas y vehículos involucrados en un hecho de tránsito estén fuera de peligro.",
+  "sujeto": "Autoridades de tránsito",
+  "obligaciones": [
+    "Verificar la documentación necesaria para la circulación conforme a este reglamento.",
+    "Realizar dicha verificación en el momento en que sea posible, y sólo una vez que las personas, vehículos y terceros estén fuera de riesgo o exposición."
+  ],
+  "condicion": "Durante la atención de un hecho de tránsito, y solo cuando no exista riesgo para los involucrados.",
+  "explicacion_clara": "Después de atender una emergencia por accidente, los agentes deben revisar los documentos del vehículo y del conductor, pero solo cuando ya no haya peligro para nadie.",
+  "aplicable_en_infracciones": true
+}
+
+]

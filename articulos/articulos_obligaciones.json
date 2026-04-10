@@ -1,0 +1,137 @@
+[
+{
+  "articulo": 51,
+  "titulo": "Obligaciones de conductores de transporte público de pasajeros",
+  "tipo": "obligaciones",
+  "intents":["obligaciones_transporte_publico"],
+  "sujeto": "conductores de vehículos de transporte público de pasajeros",
+  "obligaciones": [
+    {
+      "descripcion": "Circular por el carril de la extrema derecha",
+      "excepciones": [
+        "Existencia de vehículos parados o estacionados o algún obstáculo en el carril",
+        "Para rebasar a otros vehículos más lentos",
+        "Cuando se pretenda girar a la izquierda"
+      ]
+    },
+    {
+      "descripcion": "Compartir de manera responsable el carril derecho con ciclistas",
+      "detalles": "Rebasar con al menos 1.50 metros de separación lateral y disminuir la velocidad"
+    },
+    {
+      "descripcion": "Circular con las portezuelas cerradas y permitir el ascenso/descenso solo con el vehículo detenido"
+    },
+    {
+      "descripcion": "Otorgar tiempo suficiente a los pasajeros para subir o bajar, especialmente personas con discapacidad o movilidad limitada"
+    },
+    {
+      "descripcion": "No salirse de la ruta o territorio establecido por las autoridades"
+    },
+    {
+      "descripcion": "Mantener condiciones adecuadas de higiene y seguridad en el vehículo"
+    },
+    {
+      "descripcion": "Encender luces interiores durante horario nocturno"
+    },
+    {
+      "descripcion": "Hacer base o estacionarse solo en lugares autorizados o de encierro en horario fuera de servicio"
+    }
+  ],
+  "explicacion_clara": "Los conductores de transporte público deben manejar por el carril derecho, cuidar a los ciclistas, solo permitir que los pasajeros suban o bajen cuando el vehículo esté detenido, respetar su ruta asignada y mantener condiciones seguras e higiénicas. También deben encender las luces interiores de noche y estacionarse solo en lugares autorizados cuando no estén en servicio.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 53,
+  "titulo": "Regulación de maniobras de carga y descarga",
+  "tipo": "obligaciones",
+  "intents":["maniobras_carga_descarga"],
+  "descripcion": "Establece las disposiciones específicas para los vehículos motorizados que realizan maniobras de carga y descarga en el municipio.",
+  "sujeto": "vehículos motorizados en maniobras de carga y descarga",
+  "obligaciones": [
+    {
+      "fraccion": "I",
+      "descripcion": "Cubrir y asegurar adecuadamente la carga para evitar derrames sobre la vía pública"
+    },
+    {
+      "fraccion": "II",
+      "descripcion": "Mantener un conductor presente en todo momento durante las maniobras"
+    },
+    {
+      "fraccion": "III",
+      "descripcion": "Respetar la señalización sobre estacionamiento y reglas específicas de carga y descarga"
+    },
+    {
+      "fraccion": "IV",
+      "descripcion": "Cumplir con los tiempos señalizados para zonas de carga y descarga menores a 10 minutos"
+    },
+    {
+      "fraccion": "V",
+      "descripcion": "Obedecer el artículo 34 respecto a los lugares prohibidos para estacionamiento si no hay señalización específica"
+    },
+    {
+      "fraccion": "VI",
+      "descripcion": "Seguir las indicaciones de los agentes de tránsito para reubicación en caso de obstrucciones"
+    },
+    {
+      "fraccion": "VII",
+      "descripcion": "Camionetas tipo pick-up solo podrán transportar carga que no exceda su capacidad"
+    },
+    {
+      "fraccion": "VIII",
+      "descripcion": "En el Primer Cuadro y zonas designadas por el Ayuntamiento, solo se permite carga y descarga mayores a 10 minutos entre las 20:00 y 06:00 horas"
+    }
+  ],
+  "permisos_especiales": {
+    "descripcion": "Si la naturaleza de la carga requiere excepciones, se debe solicitar permiso por escrito a la Dirección de Tránsito y Vialidad Municipal"
+  },
+  "explicacion_clara": "Los vehículos que cargan o descargan mercancía deben cumplir reglas claras: cubrir bien la carga, tener siempre un conductor presente, seguir la señalización, respetar tiempos máximos, evitar bloquear rampas o accesos, y hacer maniobras largas solo por la noche en ciertas zonas. Si necesitan romper alguna regla, deben pedir permiso a Tránsito Municipal.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 59,
+  "titulo": "Reglas para estacionamiento en vía pública",
+  "tipo": "obligaciones",
+  "intents":["reglas_estacionamiento"],
+  "descripcion": "Establece las normas que deben seguirse al detener o estacionar un vehículo en la vía pública en el municipio de Jojutla.",
+  "sujeto": "conductores de vehículos",
+  "reglas_estacionamiento": [
+    {
+      "fraccion": "I",
+      "descripcion": "El vehículo debe quedar orientado en el sentido de la circulación, salvo en estacionamiento autorizado en batería."
+    },
+    {
+      "fraccion": "II",
+      "descripcion": "El estacionamiento debe ser momentáneo, provisional o temporal, sin afectar a peatones, vehículos o entradas/salidas de cocheras."
+    },
+    {
+      "fraccion": "III",
+      "descripcion": "Se deben respetar los espacios reservados para personas con discapacidad."
+    },
+    {
+      "fraccion": "IV",
+      "descripcion": "Las bicicletas pueden estacionarse sobre aceras siempre que no obstaculicen el paso de peatones."
+    },
+    {
+      "fraccion": "V",
+      "descripcion": "En caso de estar en pendiente, además del freno de estacionamiento, se deben girar las ruedas hacia la guarnición de la vía."
+    }
+  ],
+  "explicacion_clara": "Cuando estaciones tu vehículo en la calle, hazlo en el mismo sentido de la circulación (salvo que se permita en batería), sin bloquear cocheras ni obstruir a peatones. Respeta los lugares para personas con discapacidad. Las bicicletas pueden ir en la banqueta si no estorban. En calles inclinadas, gira las llantas hacia la orilla y pon el freno de mano.",
+  "aplicable_en_infracciones": true
+},
+{
+  "articulo": 64,
+  "titulo": "Apertura y cierre de puertas de vehículos",
+  "tipo": "obligaciones",
+  "intents":["apertura_cierre_puertas"],
+  "descripcion": "Establece la obligación de los conductores de automóviles de asegurarse de que no haya peligro al abrir o cerrar las puertas del vehículo.",
+  "sujeto": "conductores de automóviles",
+  "obligaciones": [
+    {
+      "descripcion": "Cerciorarse de que no existe peligro para los ocupantes del vehículo ni para los demás usuarios de la vía pública al abrir o cerrar las puertas."
+    }
+  ],
+  "explicacion_clara": "Antes de abrir o cerrar las puertas del vehículo, el conductor debe revisar que no venga un peatón, ciclista o vehículo cerca, para evitar accidentes o molestias.",
+  "aplicable_en_infracciones": true
+}
+]

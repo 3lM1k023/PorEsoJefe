@@ -1,0 +1,30 @@
+[
+{
+  "articulo": 41,
+  "titulo": "Preferencia de paso de vehículos no motorizados",
+  "tipo": "preferencia",
+  "intents":["preferencia_no_motorizados"],
+  "estructura": "condicional",
+  "descripcion": "Los conductores de vehículos no motorizados tienen preferencia de paso sobre los vehículos motorizados en determinadas situaciones.",
+  "preferencias": {
+    "I": {
+      "descripcion": "En intersecciones con semáforo",
+      "condiciones": [
+        "El semáforo les otorgó el paso pero no alcanzaron a cruzar completamente la vía",
+        "Circulan de frente y los vehículos motorizados desean girar para incorporarse a una vía transversal"
+      ]
+    },
+    "II": {
+      "descripcion": "En intersecciones sin semáforo",
+      "regla": "Los vehículos motorizados deben frenar y ceder el paso si hay vehículos no motorizados esperando cruzar",
+      "referencias": ["Artículo 27", "Artículo 32"]
+    },
+    "III": {
+      "descripcion": "Cuando circulan por vías ciclistas exclusivas",
+      "condicion": "Tienen preferencia si los vehículos motorizados desean girar para entrar o salir de un predio"
+    }
+  },
+  "explicacion_clara": "Si vas en bicicleta o en otro vehículo no motorizado, tienes preferencia en los semáforos si aún no cruzas por completo o si un coche va a girar. También tienes preferencia en cruces sin semáforo y cuando vas por una ciclovía exclusiva y un coche quiere meterse o salirse de un predio.",
+  "aplicable_en_infracciones": true
+}
+]

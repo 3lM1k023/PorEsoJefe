@@ -1,0 +1,44 @@
+[
+{
+  "articulo": 46,
+  "titulo": "Obligaciones de conductores de motocicletas",
+  "tipo": "obligaciones específicas",
+  "intents":["obligaciones_motociclistas"],
+  "descripcion": "Establece las reglas aplicables a conductores de motocicletas, motonetas, trimotos y cuatrimotos, considerando sus características particulares.",
+  "vehiculos_aplicables": [
+    "motocicletas",
+    "motonetas",
+    "trimotos",
+    "cuatrimotos"
+  ],
+  "obligaciones": [
+    {
+      "fraccion": "I",
+      "descripcion": "Utilizar un carril completo de circulación"
+    },
+    {
+      "fraccion": "II",
+      "descripcion": "Utilizar casco protector diseñado específicamente para motociclistas y asegurarse que el acompañante también lo use",
+      "condiciones": [
+        "El casco debe estar correctamente colocado y abrochado",
+        "No se aceptan cascos no diseñados para motociclistas"
+      ],
+      "sancion": {
+        "tipo": "económica y administrativa",
+        "detalle": "Multa conforme a la Ley de Ingresos y arrastre al depósito vehicular"
+      }
+    },
+    {
+      "fraccion": "III",
+      "descripcion": "Adelantar otro vehículo solo por el lado izquierdo"
+    },
+    {
+      "fraccion": "IV",
+      "descripcion": "Respetar las reglas de preferencia de paso estipuladas en el Reglamento"
+    }
+  ],
+  "observaciones": "Este artículo complementa las normas del capítulo III del Título correspondiente, salvo excepciones por la naturaleza del vehículo.",
+  "explicacion_clara": "Los motociclistas, incluyendo quienes manejan motonetas, trimotos o cuatrimotos, deben respetar ciertas reglas: usar todo el carril como un auto, usar casco especial bien abrochado (al igual que su acompañante), rebasar solo por el lado izquierdo y respetar las reglas de paso. Si no usan casco adecuado, además de una multa, su moto puede ser llevada al corralón.",
+  "aplicable_en_infracciones": true
+}
+]
